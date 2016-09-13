@@ -1,0 +1,124 @@
+/* Print styles for v3 of robbhamilton.com */
+
+/* HTML Elements */ 
+
+	body {
+		font: 10pt/14pt 'Open Sans', sans-serif;
+		margin: 0;
+		padding: 0;
+		}
+
+/* Composition Styles */
+
+	.alignRight {
+		float: right;
+		margin: 0 0 14px 22px;
+		}
+
+	.armadillo #c1 blockquote {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		}
+	.armadillo #c1 li {
+		float: left;
+		margin: 0 20px 0 0;
+		text-align: center;
+		width: 135px;
+		}
+		.armadillo #c1 li#wss {
+			margin-right: 0;
+			}
+		.armadillo #c1 li em {
+			display: block;
+			font-size: 1.1em;
+			margin: 7px 0 0;
+			}
+		.armadillo #c1 li img {
+			display: block;
+			margin: 0 auto;
+			}
+	.armadillo #c1 ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}		
+
+	#contact {
+		margin-top: 6px;
+		text-align: center;
+		}
+
+	#header,
+	#header dd a,
+	#footer,	
+	#nav,
+	#navScreenshot,
+	#skipNav {
+		display: none;
+		}
+		.home #header {
+			display: block;
+			}
+		#header dd {
+			letter-spacing: 1px;
+			margin: 0;
+			}			
+		#header dt {
+			font-size: 16pt;
+			letter-spacing: 1px;
+			}
+			
+	#polaroids a {
+		color: #000;
+		text-decoration: none;
+		}	
+	#polaroids dd {
+		margin: 0 0 20px;
+		}
+	#polaroids dt {
+		font-size: 11pt;
+		letter-spacing: 1px;
+		margin: 0 0 3px;
+		}		
+	#polaroids img {
+		border: 0;
+		}
+		
+	.portfolio dd ul {
+		margin: 0;
+		padding: 0;
+		}
+		
+	.resume #c1 h1 {
+		font-size: 16pt;
+		letter-spacing: 1px;		
+		margin: 0;
+		text-align: center;
+		}
+	.resume #c1 h2 {
+		font-size: 12pt;
+		letter-spacing: 1px;
+		margin: 0 0 6px;
+		}
+	.resume #c1 p.education {
+		margin: 0;
+		}		
+	.resume #c1 ul {
+		list-style-type: square;
+		}			
+		.resume #c1 ul.skills {
+			float: left;
+			list-style: none;
+			margin: 0 0 14px;
+			padding: 0;
+			position: relative;			
+			width: 50%;
+			}
+			
+	#screenshot dd {
+		margin: 0;
+		}
+		
+	#statement {
+		margin-bottom: 15px;
+		}			
+	

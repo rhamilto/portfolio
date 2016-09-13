@@ -1,0 +1,44 @@
+	/* HTML Elements */
+		body { 
+			position: relative;
+			}
+	
+		li.alignRight {
+			clear: right;
+			float: right;
+			width: 48%;
+			}
+	
+	/* Format Styles */
+		.button {
+			padding: 0;
+			width: 60px;
+			}
+		.twoColList {
+			zoom: 100%;
+			}
+	
+	/* Composition Styles */		
+		#isbnDetails li, .navAction li, .navAction li a, #relatedFiles li {
+			zoom: 100%; 
+			}
+		.searchResults .isbnProperties .edition {	
+			display: none;
+			}		
+	
+	/* Structural Styles */
+		div {
+			position: relative;
+			zoom: 100%;
+			word-wrap: break-word;
+			}
+	
+		.clear {
+			display: none;
+			}
+	
+		.outer {
+			width: 740px;
+			w\idth:expression(document.body.clientWidth > 1000 ? "998px" : (document.body.clientWidth < 740 ? "739px" : "auto" ) );
+			/* SMBH hides the width expression from IE5 and IE5.5 PC) */
+			}

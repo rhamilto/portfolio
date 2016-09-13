@@ -1,0 +1,676 @@
+/* Global styles for version 3 of robbhamilton.com */
+
+/* HTML Elements */ 
+
+	body {
+		background: #e7e7e7 url("/assets/images/ui/bg.jpg") no-repeat 50% 0;
+		color: #000;
+		font: 400 62.5%/140% 'Open Sans', sans-serif;
+		margin: 0;
+		padding: 0;
+		-webkit-text-size-adjust: none;
+		}
+		
+	form {
+		margin: 0;
+		padding: 0;
+		}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 600;
+		}
+	
+	img {
+		border: none;
+		}
+
+	p, td {
+		margin-top: 0;
+		}
+	
+	strong {
+		font-weight: 600;
+		}
+		
+/* Structural Styles */
+
+	.inner {
+		margin: 15px 0 0;
+		position: relative;
+		}	
+
+	.outer {
+		margin: 0 auto;
+		position: relative;
+		width: 960px;
+		}
+
+/* Composition Styles */
+
+	.alignRight {
+		float: right;
+		margin: 0 0 14px 22px;
+		}
+
+	.armadillo #c1,
+	.resume #c1 .page {
+		background: url(/assets/images/ui/bg_sheet_bottom.png) no-repeat 0 100%;
+		color: #444;
+		font-size: 1.3em;
+		line-height: 1.6em;
+		margin: 0 auto 30px;
+		padding: 0 0 77px;
+		width: 878px;
+		}
+		.resume #c1 .one {
+			margin-bottom: 10px;
+			}
+		.armadillo #c1 .content,
+		.resume #c1 .content {
+			background: url(/assets/images/ui/bg_sheet.png) no-repeat;
+			min-height: 998px;			
+			padding: 57px 80px 0;
+			position: relative;
+			}
+		.armadillo #c1 blockquote {
+			margin-bottom: 40px;
+			margin-top: 20px;
+			}
+		.armadillo #c1 h1 {
+			font-size: 1.4em;
+			}
+		.armadillo #c1 h2,
+		.resume #c1 h2 {	
+			font-size: 1.07em;
+			margin-bottom: 20px;
+			}
+			.resume #c1 h2 {
+				margin: 14px 0 11px;
+				}			
+		.armadillo #c1 li {
+			border-right: 1px dotted #ccc;
+			float: left;
+			margin: 0 14px 0 0;
+			padding: 0 14px 0 0;
+			text-align: center;
+			width: 184px;
+			}
+			.armadillo #c1 li#mtpod {
+				width: 144px;
+				}
+			.armadillo #c1 li#tkam {
+				width: 125px;
+				}
+			.armadillo #c1 li#wss {
+				border-right: 0;
+				width: 150px;
+				}
+			.armadillo #c1 li em {
+				display: block;
+				margin: 7px 0 0;
+				}
+			.armadillo #c1 li img {
+				display: block;
+				margin: 0 auto;
+				}
+		.armadillo #c1 ul {
+			font-size: .92em;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			}
+		.resume #c1 h1 {
+			font-size: 1.8em;
+			margin: 0 0 9px;
+			text-align: center;
+			}
+		.resume #c1 p {
+			margin-top: 12px;
+			}
+			.resume #c1 p#contact {
+				margin-top: 0;
+				text-align: center;
+				}
+			.resume #c1 p.education {
+				margin-bottom: 0;
+				margin-top: 0;
+				}			
+		.resume #c1 ul {
+			list-style-type: square;
+			margin-bottom: 0;
+			}			
+			.resume #c1 ul.skills {
+				float: left;
+				list-style: none;
+				margin: 0 0 14px;
+				padding: 0;
+				position: relative;			
+				width: 50%;
+				}
+			
+	.cover {
+		border: 1px solid #ccc;
+		padding: 3px;
+		}
+
+	#footer {
+		background: url(/assets/images/ui/bg_footer.png) no-repeat;
+		clear: left;
+		margin: 0 0 20px;
+		position: relative;
+		width: 533px;
+		}
+		#footer p {
+			line-height: 100%;
+			margin: 0;
+			}
+			#footer p#copyright {
+				padding: 26px 130px 16px 18px;
+				}
+			#footer p#toTop {
+				font-family: 'Gloria Hallelujah', sans-serif;
+				font-size: 1.3em;			 
+				height: 30px;
+				position: absolute;
+					right: 55px;
+					top: 10px;
+				width: 65px;
+				}
+				#footer p#toTop a {
+					background: url(/assets/images/ui/bg_to_top.png) no-repeat 0 100%;
+					color: #000;
+					color: rgba(0,0,0,.8);
+					display: block;
+					padding: 14px 0 6px 17px;
+					text-decoration: none;
+					}
+					#footer p#toTop a:hover {
+						color: rgba(0,0,0,1);
+						margin-top: -4px;
+						}
+					#footer p#toTop a:active,
+					#footer p#toTop a:focus {
+						outline: 0;
+						}											
+					
+	#header dl {
+		background: url(/assets/images/ui/bg_business.png) no-repeat;
+		height: 179px;
+		margin: 0;
+		position: relative;
+		top: -14px;
+		width: 342px;
+		}
+		#header dl a {
+			background: url(/assets/images/ui/bg_card.png) no-repeat 341px 192px;
+			color: #967C89;
+			color: rgba(150, 124, 137,.9);
+			padding: 19px 25px 19px 17px;
+			text-decoration: none;
+			}
+			#header dl a:hover {
+				background-position: 0 -46px;
+				}
+		#header dl dd {
+			color: #888;
+			font-size: 1.3em;
+			font-weight: 600;
+			margin: 0;	
+			position: absolute;
+				left: 22px;
+				top: 95px;	
+				}
+			#header dl dd + dd {
+				font-size: 1.2em;
+				font-weight: 600;
+				left: 5px;
+				top: 136px;
+				}
+		#header dl dt {
+			color: #555;
+			font-weight: 600;
+			font-size: 2.2em;
+			position: absolute;
+				left: 20px;
+				top: 72px;
+			}
+	
+	#nav {
+		font-family: 'Gloria Hallelujah', sans-serif;
+		font-size: 1.8em;
+		height: 167px;
+		line-height: 1;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+			top: 0;
+			right: 0;
+		text-align: center;
+		width: 784px;
+		}
+		#nav li a {
+			color: #000;
+			color: rgba(0,0,0,.8);
+			display: block;
+			text-decoration: none;
+			}
+		#nav #navArmadillo {
+			height: 127px;
+			position: absolute;
+				left: 0;
+				top: 19px;
+			text-indent: -9999px;	
+			width: 159px;
+			}
+			#nav #navArmadillo a {
+				background: url(/assets/images/ui/bg_card.png) no-repeat 341px 192px;
+				height: 100%;
+				width: 100%;
+				}			
+				.armadillo #nav #navArmadillo a,
+				.armadillo #nav #navArmadillo a:hover {
+					background-position: -169px 100%;
+					}
+				#nav #navArmadillo a:hover {
+						background-position: 0 -102px;
+						}						
+		#nav #navHome {			
+			height: 43px;
+			position: absolute;
+				left: -175px;
+				top: 0;	
+			width: 101px;
+			}
+			.home #nav #navHome {
+				display: none;
+				}
+				#nav #navHome a {
+					background: url(/assets/images/ui/bg_card.png) no-repeat;
+					display: block;
+					font-size: .9em;
+					padding: 16px 0;
+					}	
+					#nav #navHome a:hover {	
+						background-position: -101px 0;
+						}			
+		#nav #navPortfolio {
+			background: url(/assets/images/ui/bg_portfolio.jpg) no-repeat;
+			height: 104px;
+			position: absolute;
+				right: 165px;
+				top: 57px;
+			width: 147px;
+			}
+			#nav #navPortfolio > a {
+				background: url(/assets/images/ui/bg_postit.png) no-repeat 321px 321px;
+				padding: 40px 0 44px;
+				}
+				.portfolio #nav #navPortfolio > a,
+				.portfolio #nav #navPortfolio > a:hover {
+					background-position: -163px 11px;
+					}				
+				#nav #navPortfolio > a:hover {
+					background-position: 3px 11px;
+					}	
+			#nav #navPortfolio ul {
+				display: none;
+				height: 32px;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+					bottom: 0;
+					left: 0;
+				width: 146px;
+				}
+				#nav #navPortfolio ul li {
+					float: left;
+					height: 100%;
+					margin: 0;
+					padding: 0;
+					position: relative;
+					text-indent: -9999px;
+					width: 50%;
+					}
+					#nav #navPortfolio ul li a {
+						height: 100%;
+						width: 100%;
+						}
+					.page1 #nav #navPortfolio ul li#page1,
+					.page1 #nav #navPortfolio ul li#page3,
+					.page1 #nav #navPortfolio ul li#page4,
+					.page1 #nav #navPortfolio ul li#page5,
+					.page1 #nav #navPortfolio ul li#page6,
+					.page2 #nav #navPortfolio ul li#page2,
+					.page2 #nav #navPortfolio ul li#page4,
+					.page2 #nav #navPortfolio ul li#page5,
+					.page2 #nav #navPortfolio ul li#page6,
+					.page3 #nav #navPortfolio ul li#page1,
+					.page3 #nav #navPortfolio ul li#page3,
+					.page3 #nav #navPortfolio ul li#page5,
+					.page3 #nav #navPortfolio ul li#page6,
+					.page4 #nav #navPortfolio ul li#page1,
+					.page4 #nav #navPortfolio ul li#page2,
+					.page4 #nav #navPortfolio ul li#page4,
+					.page4 #nav #navPortfolio ul li#page6,
+					.page5 #nav #navPortfolio ul li#page1,
+					.page5 #nav #navPortfolio ul li#page2,
+					.page5 #nav #navPortfolio ul li#page3,
+					.page5 #nav #navPortfolio ul li#page5,
+					.page6 #nav #navPortfolio ul li#page1,
+					.page6 #nav #navPortfolio ul li#page2,
+					.page6 #nav #navPortfolio ul li#page3,
+					.page6 #nav #navPortfolio ul li#page4,
+					.page6 #nav #navPortfolio ul li#page6 {	
+						display: none;
+						} 					
+						.page2 #nav #navPortfolio ul li#page1 a, 
+						.page3 #nav #navPortfolio ul li#page2 a,
+						.page4 #nav #navPortfolio ul li#page3 a,
+						.page5 #nav #navPortfolio ul li#page4 a,
+						.page6 #nav #navPortfolio ul li#page5 a {
+							background: url(/assets/images/ui/bg_postit.png) no-repeat 7px -221px;
+							}
+							.page2 #nav #navPortfolio ul li#page1 a:hover, 
+							.page3 #nav #navPortfolio ul li#page2 a:hover,
+							.page4 #nav #navPortfolio ul li#page3 a:hover,
+							.page5 #nav #navPortfolio ul li#page4 a:hover,
+							.page6 #nav #navPortfolio ul li#page5 a:hover {
+								background-position: -159px -221px;
+								}							
+						.page1 #nav #navPortfolio ul li#page2 a,
+						.page2 #nav #navPortfolio ul li#page3 a,
+						.page3 #nav #navPortfolio ul li#page4 a,
+						.page4 #nav #navPortfolio ul li#page5 a,
+						.page5 #nav #navPortfolio ul li#page6 a {
+							background: url(/assets/images/ui/bg_postit.png) no-repeat 32px -269px;
+							}
+							.page1 #nav #navPortfolio ul li#page2 a:hover,
+							.page2 #nav #navPortfolio ul li#page3 a:hover,
+							.page3 #nav #navPortfolio ul li#page4 a:hover,
+							.page4 #nav #navPortfolio ul li#page5 a:hover,
+							.page5 #nav #navPortfolio ul li#page6 a:hover {
+								background-position: -142px -269px;
+								}				
+					.page1 #nav #navPortfolio ul li#page2 {
+						float: right;
+						}			
+				.portfolio #nav #navPortfolio ul {
+					display: block;
+					}
+	
+		#nav #navResume {
+			background: url(/assets/images/ui/bg_resume.jpg) no-repeat;
+			height: 105px;
+			position: absolute;
+				right: 0;
+				top: 57px;
+			width: 145px;
+			}
+			#nav #navResume a {
+				background: url(/assets/images/ui/bg_postit.png) no-repeat 321px 321px;
+				padding: 40px 0 44px;
+				}			
+				.resume #nav #navResume a,
+				.resume #nav #navResume a:hover {
+					background-position: -156px -91px;
+					}
+				#nav #navResume a:hover {
+					background-position: 10px -91px;
+					}
+	
+	#navScreenshot {
+		font-family: 'Gloria Hallelujah', sans-serif;
+		font-size: 1.4em;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+			top: 5px;
+			right: 26px;
+		}
+		#navScreenshot.hidden {
+			display: none;
+			}						
+		#navScreenshot li {
+			float: left;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			}
+			#navScreenshot li#image1 {
+				width: 38px;
+				}
+			#navScreenshot li#image2 {
+				width: 40px;
+				}
+			#navScreenshot li#image3 {
+				width: 42px;
+				}
+			#navScreenshot li#image4 {
+				width: 37px;
+				}
+			#navScreenshot li#image5 {
+				width: 47px;
+				}																
+			#navScreenshot li a {
+				background: url(/assets/images/ui/bg_pages.png) no-repeat;
+				color: #000;
+				color: rgba(0,0,0,.8);
+				display: block;
+				padding: 16px 0;
+				text-decoration: none;
+				width: 100%;
+				}
+				#navScreenshot li#image2 a {
+					background-position: -38px 0;
+					}
+				#navScreenshot li#image3 a {
+					background-position: -78px 0;
+					}
+				#navScreenshot li#image4 a {
+					background-position: -120px 0;
+					}
+				#navScreenshot li#image5 a {
+					background-position: -157px 0;
+					}
+				#navScreenshot li a:active,
+				#navScreenshot li a:focus {
+					outline: 0;
+					}																			
+				#navScreenshot li a:hover {
+					background-position: 0 -42px;
+					color: rgba(0,0,0,1);
+					}
+					#navScreenshot li#image2 a:hover {
+						background-position:-38px -42px;
+						}
+					#navScreenshot li#image3 a:hover {
+						background-position: -78px -42px;
+						}
+					#navScreenshot li#image4 a:hover {
+						background-position: -120px -42px;
+						}
+					#navScreenshot li#image5 a:hover {
+						background-position: -157px -42px;
+						}					
+				#navScreenshot li a.selected,
+				#navScreenshot li a:hover.selected {
+					background-position: 0 -84px;
+					}
+					#navScreenshot li#image2 a.selected,
+					#navScreenshot li#image2 a:hover.selected {
+						background-position: -38px -84px;
+						}
+					#navScreenshot li#image3 a.selected,
+					#navScreenshot li#image3 a:hover.selected {
+						background-position: -78px -84px;
+						}
+					#navScreenshot li#image4 a.selected,
+					#navScreenshot li#image4 a:hover.selected {
+						background-position: -120px -84px;
+						}
+					#navScreenshot li#image5 a.selected,
+					#navScreenshot li#image5 a:hover.selected {
+						background-position: -157px -84px;					
+						}	
+		#navScreenshot.visible {
+			display: block;
+			}				
+	
+	#polaroids {
+		float: left;
+		margin: 0 0 10px;
+		position: relative;
+		}				
+		#polaroids dd {
+			background: url(/assets/images/ui/bg_polaroid.png) no-repeat;
+			float: left;
+			height: 306px;
+			margin: 0 0 30px;
+			width: 300px;
+			}
+			#polaroids dd.two,
+			#polaroids dd.five {
+				margin-left: 30px;
+				margin-right: 30px;
+				}
+			#polaroids dd a {
+				display: block;
+				padding: 24px 17px 60px;
+				}
+		#polaroids dt {
+			font-family: 'Gloria Hallelujah', sans-serif;
+			font-size: 1.5em;
+			height: 38px;
+			line-height: 18px;
+			position: absolute;
+				left: 17px;
+				top: 251px;
+			width: 266px;
+			}
+			#polaroids dt a {
+				color: #000;
+				color: rgba(0,0,0,.8);
+				display: block;
+				height: 100%;
+				text-decoration: none;
+				width: 100%;
+				}
+			#polaroids dt.two {
+				background-position: 0 -42px;
+				left: 347px;
+				}	
+			#polaroids dt.three {
+				background-position: 0 -82px;
+				left: 677px;
+				}
+			#polaroids dt.four {
+				background-position: 0 -141px;
+				top: 588px;
+				}	
+			#polaroids dt.five {
+				background-position: 0 -199px;
+				left: 347px;
+				top: 588px;
+				}
+			#polaroids dt.six {
+				background-position: 0 -259px;
+				left: 677px;
+				top: 588px;
+				}
+				
+	.portfolio #c1 {
+		font-family: "Courier New", Courier, monospace;
+		font-size: 12px; /* px for Safari */		
+		background: url(/assets/images/ui/bg_notecard_bottom.png) no-repeat 0 100%;
+		padding: 0 0 4px;
+		position: absolute;
+			right: 0;
+			top: 14px;
+		width: 247px;			
+		}	
+		.portfolio #c1 .content {
+			background: url(/assets/images/ui/bg_notecard.png) no-repeat;
+			min-height: 366px;
+			padding: 18px 20px;		
+			}
+		.portfolio #c1 a {
+			background: url(/assets/images/ui/bg_underline.png) repeat-x 0 9px;
+			color: #222;
+			padding: 0 0 4px;
+			text-decoration: none;
+			}
+			.portfolio #c1 a:hover {
+				background-position: 0 11px;
+				}
+		.portfolio #c1 dd {
+			margin: 0 0 10px 22px;
+			}		
+		.portfolio #c1 h1,
+		.portfolio #c1 h2 {
+			font-size: 12px; /* px for Safari */
+			font-weight: normal;
+			margin-top: 0;
+			}
+			.portfolio #c1 li {
+				background: url(/assets/images/ui/bg_bullet.png) no-repeat 0 3px;
+				margin-left: 0;
+				padding-left: 9px;
+				}
+			.portfolio #c1 ul {
+				list-style: none;
+				margin-left: 0;
+				padding-left: 0;
+				}				
+	.portfolio #c2 {
+		margin: 0 266px 30px 0;
+		position: relative;		
+		}
+			
+	#screenshot {
+		background: url(/assets/images/ui/bg_screenshot.png) no-repeat;		
+		height: 837px;
+		padding: 59px 35px 0;
+		width: 624px;
+		}
+		#screenshot dd {
+			margin: 0;
+			}
+		#screenshot dt {
+			font: 1.2em/1.2em "Times New Roman", Times, serif;
+			margin: 0 200px 0 0;
+			position: absolute;
+				left: 16px;
+				top: 14px;
+			}						
+				
+	#skipNav {
+		display: none;
+		}
+		
+	#statement {
+		background: url(/assets/images/ui/bg_statement.png) no-repeat;
+		color: #000;
+		color: rgba(0,0,0,.8);
+		font-family: 'Gloria Hallelujah', sans-serif;
+		font-size: 1.6em;
+		letter-spacing: 1px;
+		line-height: 22px;
+		margin: 0 auto 25px;
+		width: 876px;
+		}
+		#statement a {
+			background: url(/assets/images/ui/bg_underline.png) no-repeat 0 23px;
+			color: #000;
+			color: rgba(0,0,0,.8);
+			text-decoration: none;
+			}
+			#statement a:hover {
+				background-position: 0 25px;
+				}
+		#statement p {
+			margin: 0;
+			padding: 29px 20px 36px 112px;
+			}

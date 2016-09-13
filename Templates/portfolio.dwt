@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html><!-- InstanceBegin template="/Templates/global.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> - Robb Hamilton</title>
+<!-- InstanceEndEditable -->
+<link rel="icon" type="image/png" href="/assets/images/ui/favicon.png" />
+<link rel="stylesheet" type="text/css" href="/assets/styles/global.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/styles/print.css" media="print" />
+<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript">
+	var pagenumber = "@@(pagenumber)@@";
+</script>
+<script type="text/javascript" src="/assets/scripts/portfolio.js"></script>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- TemplateParam name="alttxt" type="text" value="alttxt" passthrough="true" --><!-- InstanceEndEditable --><!-- InstanceParam name="layout" type="text" value="layout12" --><!-- InstanceParam name="section" type="text" value="portfolio" --><!-- InstanceParam name="pagenumber" type="number" value="" passthrough="true" -->
+</head>
+<body class="layout12 portfolio @@@(pagenumber ? 'page' + pagenumber : '')@@@">
+	<div class="outer" id="top">
+		<!--#include virtual="/assets/includes/header.html" -->
+		<div class="inner">
+			<div id="c1">
+				<!-- InstanceBeginEditable name="c1" -->
+				<div class="content">
+				<!-- TemplateBeginEditable name="content" -->
+					<h1>iContact Community web portal</h1>
+					<p><a href="http://community.icontact.com/">http://community.icontact.com/</a></p>
+					<dl>
+						<dt>Responsibilities</dt>
+						<dd>
+							<ul>
+								<li>Graphic Design</li>
+								<li>XHTML</li>
+								<li>CSS</li>
+							</ul>
+						</dd>
+						<dt>Highlights</dt>
+						<dd>Write something for here.</dd>
+						<dt>Developed for</dt>
+						<dd>iContact Corporation</dd>							
+					</dl>
+				<!-- TemplateEndEditable -->
+				</div><!--/content-->
+				<!-- InstanceEndEditable -->
+			</div><!--/c1-->
+			
+			<div id="c2">
+				<!-- InstanceBeginEditable name="c2" -->
+					<dl id="screenshot">
+						<dt id="label">@@(alttxt)@@</dt>
+						<dd id="window"><img src="/assets/images/portfolio/@@(pagenumber)@@/1.jpg" alt="@@(alttxt)@@" id="display" /></dd>
+					</dl><!--/screenshot-->
+					<ul id="navScreenshot" class="hidden">
+						<li id="image1"><a href="#" onclick="swap(1, '@@(alttxt)@@'); return false;" class="selected">1</a></li>
+						<!--TemplateBeginEditable name="screenshotNav"-->
+						<li id="image2"><a href="#" onclick="swap(2, ''); return false;">2</a></li>
+						<li id="image3"><a href="#" onclick="swap(3, ''); return false;">3</a></li>
+						<!--TemplateEndEditable-->
+					</ul>
+					<script type="text/javascript">display();</script>
+				<!-- InstanceEndEditable -->
+			</div><!--/c2-->
+			
+		</div>
+		<!--/inner-->
+		<!--#include virtual="/assets/includes/navigation/navPrimary.html" -->
+		<!--#include virtual="/assets/includes/footer.html" -->		
+	</div><!--/outer-->
+	<!--#include virtual="/assets/includes/analytics.html" -->	
+</body>
+<!-- InstanceEnd --></html>

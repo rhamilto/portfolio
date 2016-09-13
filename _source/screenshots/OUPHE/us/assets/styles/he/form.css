@@ -1,0 +1,141 @@
+/* CSS Document */
+
+.field {
+	display: block;
+	position: relative;
+	height: 2.5em;
+	}
+	.field.ftextarea {
+		height: 12em;
+		}
+	.field input,
+	.field select,
+	.field textarea {
+		position: absolute;
+		left: 205px;
+		top: 0px;
+		width: 55%;
+		}
+
+		
+.fields {
+	position: relative;
+	}
+
+.form {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px;
+	}
+	
+.form label, .label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 200px;
+	font-size: 110%;
+	text-transform: none;
+	}
+	
+.formAction {
+	margin: 0 0 10px 0;
+	}
+	
+.radio label {
+	position: absolute;
+	left: 230px;
+	top: 0px;
+	font-weight: normal;
+	text-align: left;
+	width: auto;
+	}
+	
+.radio input {
+	width: auto;
+	}
+	
+.submit {
+	position: relative;
+	left: 205px;
+	margin-right: 20px;
+	}
+	
+
+
+/*
+
+.clear {
+	clear: both;
+	}
+
+.form {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 3px;
+	}
+
+.formAction {
+	margin: 0 0 10px 0;
+	}
+
+.formSection {}
+
+
+.field, .label {
+	display: block;
+	height: 2em;
+	position: relative;
+	margin: 10px;
+	}
+	.field input,
+	.field select,
+	.field textarea {
+		position: absolute;
+		left: 160px;
+		top: 0;
+		z-index: 1;
+		}
+	.field input {
+		width: 40%;	
+		}
+	.field label, .label {
+		font-weight: bold;
+		display: block;
+		text-align: right;
+		width: 150px;
+		font-size: 100%;
+		text-transform: none;
+		border: 1px solid blue;
+		}
+		
+.fieldGroup {
+	position: relative;
+	}
+
+.radio {
+	}
+	.radio label {
+		display: inline;
+		text-align: left;
+		width: auto;
+		font-weight: normal;
+		position: static;
+		border: 1px solid red;
+		}
+	.radio input {
+		display: inline;
+		z-index: 1;
+		}
+
+.submit {
+	position: relative;
+	left: 170px;
+	margin-right: 20px;
+	}
+
+.textarea {
+	height: 11.5em;
+	}
+
+*/
+		

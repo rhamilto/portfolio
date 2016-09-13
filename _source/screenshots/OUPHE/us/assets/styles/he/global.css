@@ -1,0 +1,2084 @@
+/* Created by Rick Cecil | rick@hesketh.com */
+
+/* Composition Styles */ 
+
+	.advertising{
+		margin: 0 0 20px;
+		}
+		.advertising h1 {
+			color: #5A4726;
+			margin: 0 0 5px;
+			padding: 0;
+			font-size: 105%;
+			}
+		.advertising .crossSell {
+			border-top: 1px dashed #B8C8DE;
+			padding: 15px 0 10px;
+			margin: 0;
+			}
+			.advertising .crossSell.first {
+				border: 0;
+				margin: 0; 
+				padding: 0; 
+				margin: 0 0 10px; 
+				}
+			.advertising.crossSellContainer .crossSell h2 {
+				font-size:100%;	
+				}
+			.advertising .crossSell p {
+				margin: 10px 0 0;			
+				}
+			.advertising .crossSell img {
+				float: left;
+				margin: 0 10px 0 0;			
+				}
+		.advertising .upsell {
+			border-top: 1px dashed #B8C8DE;
+			padding: 15px 0 0;
+			margin: 0 0 20px;
+			}
+			.advertising .upsell.first {
+				border-top: none;
+				padding: 10px 0 0;	
+				}
+
+	.boxes {}
+		.boxStyle5 {
+			background: #F7F7EF;
+			border: 1px solid #B8C8DE;
+			}
+		.outlineBlue {
+			border: 1px solid #B8C8DE;
+			margin: 3px 0 0 0;
+			padding: 5px;			
+			}
+		.outlineTanRoundedTopContainer {
+			background:   url("/us/assets/images/bgRightSidebar2.gif") no-repeat left top;	
+			padding: 4px 0 0 0;
+			}
+			.outlineTanRoundedTop {
+				border: 1px solid #BDBD89; 
+				border-top: none;
+				padding: 5px 5px 8px; 			
+				}
+		.solidDarkTan {
+			background-color: #DFDFC6;
+			border: 1px solid #DADAB5; 		
+			}
+		.solidLightTan {
+			background: #F7F7EF;
+			border: 1px solid #BDBD89;
+			padding: 5px;
+			}
+		.solidLightTanOutlineBlueRoundedCornerContainer {
+			background:   url("/us/assets/images/bgBlueOutline.gif") no-repeat left top;
+			padding: 3px 0 0 0;
+			}
+			.solidLightTanOutlineBlueRoundedCorner {
+				background: #F7F7EF;
+				border: 1px solid #B8C8DE;
+				border-top: none;
+				padding: 5px;
+				}
+		.solidBlueOutlineDashedBlue {
+			background: #DCE4EF;
+			border-top: 1px dashed #DADAB5;
+			border-bottom: 1px dashed #DADAB5;
+			padding: 5px;
+			}
+			.navBrowse .solidBlueOutlineDashedBlue {
+				border: 0;
+				border-top: 0;
+				}
+		.solidLightTanOutlineBlue {
+			background: #F7F7EF;
+			border: 1px solid #B8C8DE;
+			padding: 5px;
+			}
+		.solidMediumTanRoundedTopContainer {
+			background: url("/us/assets/images/bgDarkTanCurvedTop.gif") no-repeat left top;
+			padding: 3px 0 0 0;
+			}
+			.two .solidMediumTanRoundedTopContainer {
+				background: url("/us/assets/images/bgTwoDarkTanCurvedTop.gif") no-repeat left top;
+				padding: 3px 0 0 0;
+				}
+			.corporate .two .solidMediumTanRoundedTopContainer {
+				background: url("/us/assets/images/bgTwoDarkTanCurvedTop.gif") no-repeat left top;
+				padding: 3px 0 0 0;
+				}
+			.solidMediumTanRoundedTop {
+				background: #EAEACF; 
+				border-left: 1px solid #BDBD89;
+				border-right: 1px solid #BDBD89;
+				padding: 5px;
+				}
+		.solidMediumTan {
+			background: #EAEACF; 
+			border: 1px solid #BDBD89;
+			padding: 5px;
+			}
+
+	#breadcrumbContainer {
+		background: #F7F7EF url("/us/assets/images/he/bgMainPromoDropShadow.gif") repeat-x left bottom;
+		border-top: 1px solid #7A7AAA;		
+		padding-bottom: 9px;
+		}
+		#breadcrumb {
+			font-size: 86%;
+			padding: 3px 5px;
+			}
+			#breadcrumb.promo {
+				float: left;
+				padding: 5px;
+				width: 78%;
+				}
+			#breadcrumb a {
+				text-decoration: none;
+				}
+				#breadcrumb a:hover {
+					text-decoration: underline;
+					}
+			#breadcrumb #here {
+				font-weight: bold;
+				}
+		#breadcrumb .breadcrumbItem {
+			white-space:nowrap;
+			}
+
+	#browseHigherEd {
+			background: #F7F7EF;
+			margin: 0 25px 15px;
+			}
+		#content #browseHigherEd h1 {
+			background: url(/us/assets/images/he/arrowBrown.gif) no-repeat left center;
+			color: #726149;
+			font-size: 110%;
+			padding-left: 15px;
+			}
+		.tl#browseHigherEd {
+			background: url(/us/assets/images/he/bgBrowseGradientTL.jpg) no-repeat left top;			
+			}
+		#browseHigherEd .tr {
+			background: url(/us/assets/images/he/bgBrowseGradientTR.jpg) no-repeat right top;
+			}
+		#browseHigherEd .bl {
+			background: url(/us/assets/images/he/bgBrowseGradientBL.jpg) no-repeat left bottom;
+			}
+		#browseHigherEd .br {
+			background: url(/us/assets/images/he/bgBrowseGradientBR.jpg) no-repeat right bottom;
+			padding: 15px;
+			}	
+		#browseHigherEd a:link,
+		#browseHigherEd a:visited {
+			text-decoration: none;
+				}
+			#browseHigherEd .col {
+			float: left;
+			padding: 6px 0 0 15px;
+			width:30%;
+			}
+			#browseHigherEd .col div {
+				padding: 0 6px 6px 0;
+				}
+	.bundle {
+		}
+
+		.bundle #bundleButtons {
+			float: left;
+			width: 32%;
+			}	
+		.bundle #bundleDetailsHead {
+			font-size: 120%;
+			margin: .75em 0 .25em 0;
+			}
+		.bundle #bundleHead {
+			background: transparent url(/us/assets/images/he/bgBundlesHead.jpg) no-repeat 0 0;
+			padding: 0 0 13px;
+			}
+			.bundle #bundleHead h2 {
+				background: transparent url(/us/assets/images/he/bgBundlesHeadEnd.jpg) no-repeat top right;
+				color: #655334;
+				font-size: 150%;
+				margin: 0;
+				padding: 10px 0 40px 97px;
+				}
+			.bundle #bundleHead h3 {
+				color: #A0A045;
+				font-size: 100%;
+				font-style: normal;
+				font-weight: normal;
+				margin: -40px 5px 10px 97px;
+				padding: 0;
+				}	
+		.bundle .cover {
+			background: #F6F8FB;
+			border: 1px solid #DCE4EF;
+			margin: 0 0 25px 0;
+			text-align: center;				
+			width: 100%;
+			}
+			.bundle .cover a {
+				display: block;
+				padding: 10px 5px;
+				text-decoration: none;
+				}
+		.bundle .directions {
+			padding: 0 0 15px 5px;
+			margin: 0;
+			}
+		.bundle #isbnDetails {
+			background: transparent url(/us/assets/images/he/bgISBNshadow1.jpg) repeat-x 0 0;
+			padding: 6px 15px 0;
+			}
+		.bundle .isbnProperties {
+			border-bottom: 1px dotted #D8D8B8;
+			padding: 5px 15px 9px;			
+			}	
+			.bundle .isbnProperties.alt {
+				background: #F9F9F2;
+				}				
+		.bundle .plus {
+			background: transparent url(/us/assets/images/he/bgPlus.gif) no-repeat 90% 40%;
+			float: left;
+			padding: 0 8% 0 0;
+			width: 23%;
+			}
+			.bundle .plus.last {
+				background: none;
+				}
+					
+				
+	#bundles {
+		background: #FAFAF7 url(/us/assets/images/he/bgBundleBottom.jpg) no-repeat left bottom;
+		padding-bottom: 16px;
+		}
+		#bundles h2 {
+			background: transparent url(/us/assets/images/he/bgBundleTop.jpg) no-repeat 0 0;
+			color: #655334;
+			line-height: 95%;
+			margin: 0;
+			padding: 10px 5px 11px 63px;
+			}
+		#bundles li {
+			background: transparent url(/us/assets/images/he/bulletBundle.gif) no-repeat 14px 14px;
+			padding: 10px 4px 0 25px;
+			}
+			#bundles #selectedBundle {
+				background: transparent url(/us/assets/images/he/bulletBundleSelected.gif) no-repeat 13px 11px;
+				}
+		#bundles ul {
+			border: 1px solid #BEBE8A;
+			border-bottom: none;	
+			list-style: none;
+			list-style-image: none;
+			margin: 0;	
+			padding: 0;
+			width: 199px;
+			wid\th: 197px;
+			}	
+	
+		
+			
+	.button {
+		background: url("/us/assets/images/he/bgButton.gif");
+		border: 1px outset #fff;
+		color: #fff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 90%;
+		font-weight: bold;
+		margin: 0 0 0 5px;
+		padding: 1px 5px;
+		}
+		.searchBar .button {
+			width: 4.8em;
+			}
+
+	.cartStep {
+		border: 0;
+		}
+		
+	#companionSiteResources {
+		}
+		#companionSiteResources li {
+			padding: 0 0 5px;
+			}
+			#companionSiteResources li a {
+				background: transparent url(/us/assets/images/he/bulletCompanion.jpg) no-repeat 0 3px;
+				padding: 0 0 4px 15px;
+				}
+		.isbn #companionSiteResources ul {
+			list-style: none;
+			list-style-image: none;
+			margin-left: 8px;
+			}	
+
+	#content {
+		/* padding: 5px 20px 20px;		*/
+		}
+		.bundle #content {
+			padding: 5px 0 0 15px;
+			}
+		.isbn #content {
+			padding: 5px 0 0 20px;
+			}
+		#content h1 {
+			margin: 0;
+			padding: 0 0 10px;
+			}
+	
+	#copyright {}
+		#copyright .smallText{
+			clear: both;
+			display: block;
+			font-size: 90%;
+			}
+
+	.corporatePublishingContainer {
+		margin: 0 0 10px;
+		}
+		#corporatePublishing {}
+			#corporatePublishing a {
+				text-decoration: none;
+				}
+			#corporatePublishing a:hover {
+				text-decoration: underline;
+				}
+			#corporatePublishing form {
+				padding: 0;
+				margin: 0 0 5px;
+				}
+				#corporatePublishing select {
+					width: 11.25em;	
+					float: left;
+					margin-right: 1px;
+					}
+			#corporatePublishing h1 {
+				font-size: 90%;
+				font-weight: bold;
+				margin: 0 0 3px 0;
+				}
+			#corporatePublishing li {
+				line-height: 100%;
+				padding: 0 0 4px 0;
+				}
+			#corporatePublishing ul {
+				margin: 0 0 10px 15px;
+				padding: 0;
+				list-style: none url("/us/assets/images/he/bullet.gif");
+				}
+		.internal .corporatePublishingContainer {
+			background-image: none;
+			margin-top: 0;
+			}
+			.internal #corporatePublishing {
+				border: 1px solid #BDBD89;
+				}
+
+	#courseListing {
+		clear: both;
+		}
+		#courseListing #courseDeepLinks {
+			padding-top: 0;
+			margin-bottom: 30px;
+			margin-top: 0;
+			}
+		#courseListing .isbnProperties {
+			margin-top: 20px;
+			}
+			
+	#courseManagement {
+		}
+		#courseManagement a {
+			display: block;
+			font-size: 80%;
+			line-height: 117%;
+			margin: 0 0 9px;
+			text-decoration: none;		
+			}
+		#courseManagement #Blackboard a {
+			background: transparent url(/us/assets/images/he/btnBlackboard.gif) no-repeat 0 0;
+			padding: 0 0 10px 60px;
+			}
+		#courseManagement #WebCT a {
+			background: transparent url(/us/assets/images/he/btnWebCT.gif) no-repeat 0 0;
+			padding: 0 0 4px 60px;
+			}	
+		#courseManagement li {
+			}
+		.isbn #courseManagement ul {
+			list-style: none;		
+			list-style-image: none;
+			margin-left: 0;
+			}
+			
+			
+	#courseManagementContent {
+		}
+		
+		#courseManagementContent ul ul{
+			padding-left: 20px;
+			margin-left: 0;
+			}
+			
+	#customPublishing {
+		}
+		#customPublishing p a {
+			background: transparent url(/us/assets/images/he/btnCustom.jpg) no-repeat 0 0;
+			display: block;
+			font-size: 80%;
+			line-height: 122%;
+			padding: 0 0 4px 57px;
+			text-decoration: none;		
+			}					
+
+	#deptHeader {
+		background: #ccc;
+		padding: 10px;
+		}
+		#deptHeader img {
+			float: left;
+			margin-right: 10px;
+			}
+		#deptHeader p {
+			margin-left: 90px;
+			}
+
+	#disciplinePage {}			
+		#disciplinePage #content {
+			padding: 5px 20px 20px;
+			}
+		#disciplinesListing {
+			clear: both;
+			}
+		.disciplineLeft {
+			width: 47%;
+			float: left;
+			}
+		.disciplineRight {
+			width: 47%;
+			float: right;
+			}
+		.discipline a {
+			color: #003366;
+			text-decoration:none;
+			}
+		.discipline a:hover {
+			text-decoration:none;
+			}
+		.discipline h3 {
+			background: url(/us/assets/images/he/arrowBlue.gif) no-repeat 7px 3px;	
+			font-size: 100%;
+			font-style: normal;
+			margin: 10px 0 0;
+			padding-left: 23px;
+			}
+		.discipline ul {
+			padding: 5px 0 0 50px;
+			margin: 0 0 30px;
+			}
+		.discipline li {
+			padding: 3px 0 0;
+			}
+
+	.drillDownContainer {
+		margin: 0 0 10px 0;
+		padding: 0;
+		}
+		#drillDown{
+			border-top: none;
+			margin: 0;		
+			padding: 5px 0 0;
+			/* clear: both;  <--- this was breaking FF 1.0 - see also: .subjectsList, #subjectHeading */
+			}
+			.advancedSearch #drillDown {
+				padding: 5px 0 0;
+				}
+			#subjects #drillDown h1 {
+				display: block;
+				float: none;
+				}
+			#drillDown h1 {
+				font-size: 100%; 
+				font-weight: bold;
+				margin: 0;
+				padding: 0 0 5px 10px;
+				}
+			#drillDown li {
+				padding: 0 0 5px 3px;
+				line-height: 105%;
+				margin: 0;
+				}
+			#drillDown ul {
+				list-style: none url(../../he/styles/none);
+				margin: 0 0 0 10px;
+				padding: 0 3px 0 5px;
+				}
+			#drillDown ul li.currentSubject {
+				background:  url(/us/assets/images/he/arrowDoubleBlue.gif) no-repeat -3px 0;
+				margin-left: -11px;
+				padding-left: 12px;
+				}
+				#drillDown ul li.parent ul li.currentSubject {
+					background:  url(/us/assets/images/he/arrowDoubleBlue.gif) no-repeat -3px 0;
+					margin-left: 0;
+					padding-left: 15px;		
+					}
+				#drillDown ul li.currentSubject a, 
+				#drillDown ul li.parent a,
+				#drillDown ul li.parent ul li.currentSubject a {
+					font-weight: bold;
+					}
+				#drillDown ul li.currentSubject ul li a, 
+				#drillDown ul li.parent ul li a {
+					font-weight: normal;
+					}
+				#drillDown ul li ul {
+					margin: 3px 0 0;
+					padding: 0;
+					}
+				#drillDown ul li li{
+					padding-left: 15px;
+					position: relative;
+					zoom: 100%;
+					}
+				#drillDown ul li ul li a {
+					font-weight: normal;
+					}
+
+	#featuredTitle {
+		margin-bottom: 20px;
+		padding: 10px 15px;
+		width: 40%;
+		margin-left: 25px;
+		}
+
+	.featureTopContainer {
+		background:   url("/us/assets/images/he/bgMainPromoDropShadow.gif") repeat-x left bottom;
+		padding-bottom: 9px;
+		}
+		#featureTop {
+			background: #F7F7EF url("/us/assets/images/he/bgMainPromo.gif") repeat-y right top;				
+			border-top: 1px solid #7A7AAA;
+			margin-top: 0;
+			}
+		#featureMain {
+			padding: 0 10px 0;
+			font-size: 90%;
+                        }
+			#featureMain img {
+				float: left;
+				margin-right: 30px;
+                                margin-top: 5px;
+                                border: 0;
+				}
+			#featureMain .linkMore {
+				float: right;
+				font-size: 100%;
+				margin-right: 15px;
+				}
+				#featureMain .linkMore a {
+					background:   url("/us/assets/images/he/arrowRed.gif") no-repeat left center;	
+					padding: 0 0 0 15px;
+					}
+
+	#features h1 { 
+		color: #5A4726;
+		margin:0 0 10px;
+		padding: 0;
+		}
+
+
+	.form {}
+		#bookSearch {
+			border-top: 1px dashed #7A7AAA;
+			padding: 10px 0 0;
+			}
+		#seriesSearch {
+			border-top: 1px dashed #7A7AAA;
+			padding: 10px 0 0;
+			}
+		#subject {
+			margin: 10px 0 0;
+			}
+		.field {
+			margin: 0 0 15px;
+			position: relative;
+			}
+			.fieldGroup .field { 
+				display: block;
+				margin: 0 0 5px 0;
+				}
+		.fieldGroup{}
+			.fieldGroup#otherOptions {
+				clear: both;
+				}
+		.formButton {
+			clear: both;
+			margin: 10px 10px 10px 0;
+			padding: 0 0 10px; 
+			text-align: right;
+			width: 100%;
+			}
+			.formButton input {
+				width: 6em;
+				}
+			.formButton#buttonFirst {
+				margin-top: 0;
+				}
+		input {}
+			.fieldText input {
+				width: 100%;
+				}
+		.form label{
+			display: block;
+			font-size: 85%;
+			font-weight: bold;
+			text-align: left;
+			}
+			.fieldGroup .field label {
+				display: inline;
+				font-size: 100%;
+				font-weight: normal;
+				width: auto;
+				}
+			#format label {
+				display: inline;
+				}
+		select {
+			display: inline;
+			}
+			#pubDate.fieldGroup select {
+				font-size: 75%; 
+				}
+
+	#footer {
+		padding: 20px 0 0;
+		}
+		.isbn #footer {
+			padding: 0;
+			}
+		#footer #copyright {
+			font-size: 100%;
+			padding: 30px 20px 10px;
+			}
+		#footerNav a {
+			border-right: 1px solid #333;
+			display: block;
+			float: left;
+			margin: 10px 0;
+			padding: 1px 20px;
+			text-decoration: none;
+			}
+		#footer .last {
+			border-right: none;		
+			}
+			
+	#generalinfo {
+		}
+		.isbn #generalinfo {
+			display: block;
+			}
+
+	#header {
+		background: #DCE4EF url("/us/assets/images/he/bgHeaderHEBF.gif") no-repeat 100% 0;
+		border-bottom: 1px solid #7495C0;
+		left: 0;
+		position: absolute;
+		top: -1px; /* Cover the border-top on body */
+		width: 100%;
+		}
+		#header #logo{
+			border: 0;
+			margin: 10px 0 10px 15px;
+			}
+		.print #header {
+			background: #fff url(../../he/styles/none);
+			position: static;
+			}
+
+	.headingStyles {}
+		h1.headingStyle1 {
+			background: url(/us/assets/images/he/bgHeadingFadingGradientLeft.jpg) no-repeat left top;
+			color: #726149;
+			font-size: 110%;
+			margin: 0 -10px 10px;
+			zoom: 100%;
+			}
+			h1.headingStyle1 span {
+				display: block;
+				background: url(/us/assets/images/he/bgHeadingFadingGradientRight.jpg) no-repeat right top;
+				padding: 10px 10px 15px 15px;
+				zoom: 100%;
+				}
+		
+		.headingStyle2 {}
+			.headingStyle2 a {
+				display: block;
+				}
+			.headingStyle2 .tl {
+				background: url(/us/assets/images/he/bgHeadingGradientTL.jpg) no-repeat top left;
+				display: block;
+				zoom: 100%;
+				}
+			.headingStyle2 .tr {
+				background: url(/us/assets/images/he/bgHeadingGradientTR.jpg) no-repeat top right;
+				display: block;
+				zoom: 100%;
+				}
+			.headingStyle2 .bl {
+				background: url(/us/assets/images/he/bgHeadingGradientBL.jpg) no-repeat bottom left;
+				display: block;
+				zoom: 100%;
+				}
+			.headingStyle2 .br {
+				background: url(/us/assets/images/he/bgHeadingGradientBR.jpg) no-repeat bottom right;
+				display: block;
+				padding: 9px 10px;
+				zoom: 100%;
+				}
+	
+		.headingStyle3 {
+			font-size: 115%;
+			margin: 0;
+			padding: 0;
+			}	
+			.headingStyle3 a {
+				display: block;
+				}
+			.headingStyle3 .tl {
+				background: url(/us/assets/images/he/bgHeadingGradientTanTL.jpg) no-repeat top left;
+				display: block;
+				zoom: 100%;
+				}
+			.headingStyle3 .tr {
+				background: url(/us/assets/images/he/bgHeadingGradientTanTR.jpg) no-repeat top right;
+				display: block;
+				zoom: 100%;
+				}
+			.headingStyle3 .bl {
+				background: url(/us/assets/images/he/bgHeadingGradientTanBL.jpg) no-repeat bottom left;
+				display: block;
+				zoom: 100%;
+				}
+			.headingStyle3 .br {
+				background: url(/us/assets/images/he/bgHeadingGradientTanBR.jpg) no-repeat bottom right;
+				display: block;
+				padding: 9px 10px;
+				zoom: 100%;
+				}
+
+	#headingNewNoteWorthy {
+		margin: 0 0 15px 0;
+		}
+		
+	#hebf-intro {
+		background: #FBFBFD url(/us/assets/images/he/bgWelcomeBottom.gif) no-repeat left bottom;
+		border-bottom: 1px solid #fff;
+		}	
+		#hebf-intro ul {
+			margin: 0 0 1em 20px;
+			padding-left: 0;
+			}
+		#hebf-head h1 {
+			background: transparent url(/us/assets/images/he/bgWelcomeTop.jpg) no-repeat top left;
+			border-bottom: 2px solid #C7D4E6;
+			color: #00005A;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 135%;
+			font-weight: normal;
+			padding: 12px 15px 10px;
+			margin: 0;
+			}
+		#hebf-intro-container {
+			border-left: 2px solid #C7D4E6;
+			border-right: 2px solid #C7D4E6;
+			border-bottom: 1px solid #FBFBFD; /* For Mozilla bug */
+			margin: 0 0 8px 0;
+			}	
+			#hebf-instructors,
+			#hebf-customPublishing,
+			#hebf-students,
+			#hebf-authors,
+			#hebf-bookstores {
+				padding: 0 15px;
+				}			
+				#hebf-overview,
+				#hebf-instructors h2,
+				#hebf-customPublishing h2,
+				#hebf-students h2, 
+				#hebf-authors h2,
+				#hebf-bookstores h2 {
+					font-family: "Times New Roman", Times, serif;
+					font-size: 125%;
+					margin-top: 0;
+					}
+				#hebf-overview p {
+					padding: 10px 15px 0;
+					}	
+			#hebf-static-nav {
+				}
+				#hebf-static-nav li {
+					background: transparent url(/us/assets/images/he/arrowRed.gif) no-repeat 0 5px;
+					padding: 0 0 3px 13px;
+					}
+				#hebf-static-nav ul {
+					list-style: none;
+					list-style-image: none;
+					}
+					
+	#highlight {}
+		.internal #highlight {
+			background: #F7F7EF;
+			border: 1px solid #B8C8DE;
+			padding: 5px;
+			}
+		#featureTop #highlight {
+			float: right;
+			margin-left: 30px;
+			padding: 8px 3px;
+			width: 229px;
+			}
+		#highlight form {
+			margin: 0;
+			padding: 0;
+			}
+		#highlight h2 {
+			margin: 0;
+			padding: 0;
+			}
+			
+	#ic1 {
+		background: transparent url(/us/assets/images/he/bgISBNshadow1.jpg) repeat-x 0 0;
+		}
+		#ic1 #description, #ic1 #reviews {
+			border-bottom: 1px dotted #D8D8B8;
+			}
+		#ic1 .iContent {
+			padding: 5px 15px 15px 5px;
+			}	
+			#ic1 .iContent ul, #ic2 .iContent ul {
+				margin-bottom: 1em;
+				}
+				
+	#ic2 {
+		background: #FAFAF7 url(/us/assets/images/he/bgISBNshadow2.jpg) repeat-x 0 0;
+		border-left: 1px solid #F4F4EB;
+		}
+		#ic2 h3 {
+			background: transparent url(/us/assets/images/he/bgISBNh3.jpg) repeat-y 0 0;
+			color: #5A4726;
+			font-size: 100%;
+			font-style: normal;
+			margin-bottom: 7px;
+			margin-left: -5px;
+			padding: 2px 0 2px 5px;
+			}
+		#ic2 .iContent {
+			padding: 5px 15px 0;
+			}	
+			#ic2 .iContent div {
+				padding: 0 0 3px 5px;
+				}	
+
+	#isbnDetails {
+		clear: both;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		}
+		#isbnDetails h2 {
+			color: #5A4726;
+			font-size: 110%;
+			font-style: normal;
+			}
+		#isbnDetails ul {
+			margin: 0 0 0 25px;
+			padding: 0;
+			list-style: url("/us/assets/images/he/bullet.gif");					
+			}
+		#isbnDetails .addToCartButton {
+			border: 0;
+			margin: 10px 0 20px;
+			}
+		#isbnDetails .merchandisingWrapper{
+			margin: 10px 0 0 0;
+			border-bottom: 1px dashed #DBDBB7;
+			}
+			#isbnDetails .merchandisingContainer {
+				margin: 0 198px 10px 0;
+				}
+			#isbnDetails .merchandising{
+				float: left;
+				padding: 0 0 20px;
+				width: 95%;  
+				}
+				#isbnDetails .merchandising li {
+					padding: 0 0 5px;
+					}
+	
+	
+	#isbnOffPageLinks, #isbnOnPageLinks {
+		clear: both;
+/* \*/	margin: 0 0 0 -5px; /* */
+		padding: 7px 0 0;
+		}
+		#isbnOffPageLinks li {
+			float: left
+			}
+		#isbnOnPageLinks li {
+			float: left;
+			margin: 0 4px 0 0;	
+			padding: 0 0 15px;					
+			}
+		#isbnOffPageLinks ul, #isbnOnPageLinks ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			}
+		#isbnOffPageLinks a {
+			background: transparent url(/us/assets/images/he/btnTOC-Chapter.jpg) no-repeat 0 0;
+			display: block;
+			float: left;
+			font-size: 89%;
+			padding: 7px 65px 13px 11px;
+/* \*/		padding: 7px 48px 13px 11px; /* */
+			text-decoration: none;
+			}
+			#isbnOffPageLinks a:hover  {
+				color: #009;
+				}			
+			#isbnOffPageLinks #isbnOPLtitleInformation a {
+				padding-right: 43px;
+				}
+
+		#isbnOnPageLinks a {
+			background: transparent url(/us/assets/images/he/bgOnPageLink.gif) no-repeat 3px 4px;
+			display: block;
+			float: left;
+			font-size: 85%;
+			padding: 2px 5px 2px 18px;
+			}
+
+				
+	.isbnProperties{}
+		.isbnProperties h1 {
+			font-size: 110%;
+			}
+			.bundle .isbnProperties h1, .isbn .isbnProperties h1 {
+				font-size: 135%;
+				font-weight: bold;
+				}
+				.bundle #content .isbnProperties h1 {
+					padding-top: .6em;
+					}
+			.isbnList .isbnProperties h1 {
+				margin: 0;
+				padding: 0;
+				}
+			.isbn .advertising.isbnProperties h1,
+			.isbn .merchandising.isbnProperties h1  {
+				font-size: 110%;
+				}
+		.isbnProperties h2 {
+			font-size: 105%;
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			}
+			.isbn .isbnProperties h2 {
+				font-size: 105%;
+				}
+			.advertising .isbnProperties h2, 
+			.isbnProperties .advertising h2,
+			.merchandising h2,
+			.advertising  h2{
+				font-size: 100%;
+				font-weight: bold;
+				margin: 0;
+				padding: 0;
+				}
+			.results.inline .isbnProperties .result h2 {
+				display: inline;
+				font-size: 100%;
+				}
+		.isbnProperties h3, 
+		.isbn .isbnProperties h2 {
+			display: inline;
+			font-size: 100%;
+			font-style: normal;
+			font-weight: bold;	
+			}
+		.isbnProperties .addToCart {
+			margin: 5px 0 0;
+			white-space:nowrap;
+			}
+			.isbnProperties .addToCart a {
+				background:  #E9CA00;
+				border: 2px outset #F8D10E;
+				color: #000000;
+				display: block;
+				font-size: 90%;
+				margin: 5px auto 0;
+				padding: 1px 3px;
+				text-decoration: none;
+				width: 5.8em;
+				}
+			.isbnProperties .reqGratisCopy a {
+
+				}
+			.results.inline .isbnProperties .addToCart a {
+				display: inline;
+				}				
+		.isbnProperties .alsoAvailable {
+			text-align: left;
+			font-size: 100%;
+			margin: 10px 0 0 15px;
+			}
+			.isbn .isbnProperties .alsoAvailable {
+				clear: right;
+				margin: 0 0 10px;
+				}
+			.isbnProperties .alsoAvailable h3 {
+				font-size: 90%;
+				color: #333;
+				}
+			.isbnProperties .alsoAvailable ul {
+				list-style: none url(../../he/styles/none);
+				margin: 0;
+				padding: 0;
+				}
+		.isbnProperties .author {
+			font-style: normal;
+			font-variant: small-caps;
+			white-space: nowrap;
+			}
+			.results.inline .isbnProperties .result .author {
+				padding: 0;
+				margin: 0;
+				}
+		.isbnProperties .availability {
+			display: block;	 
+			float: left;
+			}
+			.bundle .availability, .isbn .isbnProperties .availability	 {
+				display: inline;
+				float: none;
+				}
+			.results .isbnProperties .availability  {
+				display: inline;
+				float: none;
+				}
+		.isbnProperties .byline {
+			font-style: italic;
+			}
+/*			.results .isbnProperties .byline {
+				margin: 0 0 5px;
+				} */
+			.results.inline .isbnProperties .result .byline {
+				display: inline;
+				padding: 0;
+				margin: 0;
+				}
+
+		.isbnProperties .cost {}
+			.results .isbnProperties .cost {
+				margin: 10px 0 0;
+				}
+			.isbn .isbnProperties .cost {
+				margin: 25px 0 0;
+				}
+			.results.inline .isbnProperties .result .cost {
+				display: inline;
+				clear: none;
+				}
+			.isbnProperties .cost h2 {
+				font-weight: bold;
+				}
+		
+			.bundle .cover img, 
+			.isbnProperties .cover img,	
+			.isbnProperties .upsell .cover img {
+				border: 0;
+				margin: 0 auto;
+				}
+			.advertising .cover {
+				float: left;
+				margin: 0 0 10px;
+				text-align: center;
+				width: 85px;
+				}				
+			.advertising .cover .bookShot {
+				display: block;
+				}
+				.advertising .cover .bookShot img {
+					border: 0;
+					}
+					
+		.isbnProperties .description {
+			display: block;
+			margin: 8px 0 0;
+			}
+			.advertising .description {
+				clear: both;
+				} 
+		.isbnProperties .discountCode {
+			display: inline;
+			}
+		.isbnProperties .edition {
+			display: block;
+			font-size: 85%;
+			padding: 0;
+			margin: -2px 0 0;
+			}
+		.isbnProperties .editor {
+			font-style: normal;
+			font-variant: small-caps;
+			white-space: nowrap;
+			}
+		.isbnProperties .format {
+			display: inline;
+			text-transform: capitalize;
+			}
+			.advertising .format {
+				display: block;	
+				}
+		.isbnProperties .isbnNumber {}
+		.isbnProperties .linkMore {
+			font-size: 100%;
+			}
+			.advertising .linkMore {
+				clear: both;
+				display: block;
+				margin: 5px 0 0;
+				}
+			.advertising .linkMore a {
+				background:   url("/us/assets/images/he/arrowRed.gif") no-repeat left center;
+				padding: 0 0 0 12px;
+				}
+			.isbn .isbnSummaryDetails .linkMore a {
+				background:   url("/us/assets/images/he/arrowRed.gif") no-repeat right center;
+				padding: 0 11px 0 0;
+				}
+		.isbnProperties .moreSeries {
+			font-size: 90%;
+			}
+			.isbn .isbnProperties .moreSeries {
+				clear: right;
+				margin: 10px 0 15px 0;
+				}
+			.isbnProperties .moreSeries h3 {
+				color: #333;
+				display: block;	
+				font-size: 100%;
+				font-style:normal;
+				padding: 0;
+				}
+			.isbnProperties .moreSeries ul {				
+				margin: 0 0 0 20px;
+				padding: 0;
+				}
+			.isbnProperties .moreSeries.redArrow ul {
+				margin: 0 0 0 20px;
+				padding: 0;
+				}
+		.isbnProperties .otherFormats {
+			display: block;	
+			}
+		.isbnProperties .oldPrice {
+			text-decoration: line-through;					
+			}
+		.isbnProperties .pages {
+			display: inline;
+			}
+		.isbnProperties .price {
+			display: block;
+			color: #9C0000;
+			}
+			.isbn .isbnProperties .price {
+				display: inline;
+				color: #9C0000;
+				font-weight: bold;				
+				}
+			.advertising .price {	
+				font-weight: normal;
+				margin: 5px 0 0;
+				}
+			.results .isbnProperties .price {
+				display: inline;
+				}
+			.results.inline .isbnProperties .result .price {
+				display: inline;
+				clear: none;
+				}
+		.isbnProperties .publicationDate {}
+			.isbn .isbnProperties .publicationDate {
+				}
+		.isbnProperties .related {
+			display: block;
+			margin: 10px 0 0;
+			}
+			.isbnProperties .related h2 {
+				display: inline;	
+				font-size: 100%;
+				font-weight: bold;
+				}
+			.advertising .related {
+				display: block;
+				clear: both;
+				}
+		.isbnProperties .result {
+			font-size: 90%;
+			margin: 0;
+			padding: 5px;
+			}
+		.isbnProperties .set {
+			display: block;
+			font-size: 85%;
+			padding: 0;
+			margin: 0;
+			}
+		.isbnProperties .shipping {
+			font-size: 85%;
+			margin-bottom: 5px;
+			}
+			.isbnProperties .shipping h2 {
+				font-weight: normal;
+				}
+		.isbnProperties .subTitle {	
+			display: block;		
+			}
+			.bundle .isbnProperties .subTitle, .isbn .isbnProperties .subTitle {
+				font-size: 105%;
+				font-weight: bold;
+				}
+			
+	.isbnSummary {}
+		.isbn .isbnSummary {
+			padding: 0 20px 0 0;
+			}
+		.isbnSummary .cover {
+			margin: 0 0 0 -100px;
+			text-align: center;
+			width: 100px;
+			}
+			#featuredTitle .isbnSummary h1 {
+				margin: 0 0 10px;
+				}
+			#featuredTitle .isbnSummary .cover {
+				text-align: left;
+				margin: 0 0 10px;
+				width: 73px;
+				}
+			.isbn .isbnSummary .cover {
+				float: right;
+				margin: 0;
+				text-align: left;
+				width: 40%;
+/* \*/			width: auto; /* */
+				}
+				.isbn .isbnSummary .cover img {
+					margin: 0 0 8px 3px;
+					}
+				.bundle ul.actions, .bundle #isbnDetails ul.actions, .isbnSummary .cover ul {
+					list-style: none;
+					list-style-image: none;
+					margin: 0 0 10px;
+					padding: 0;
+					}
+					#featuredTitle .isbnSummary ul {
+						clear: left;
+						list-style: none;
+						list-style-image: none;						
+						margin: 0 0 10px; 
+						padding: 0;
+						}
+					.bundle #isbnDetails ul.actions {
+						margin-top: 1em;
+						}
+					.bundle ul.actions .contactSalesRep, .isbn .isbnSummary .cover ul .contactSalesRep {
+						margin: 0 0 13px;
+						}								
+					.bundle ul .contactSalesRep a, .isbn .isbnSummary .cover ul .contactSalesRep a {
+						background: transparent url(/us/assets/images/he/btnContact.jpg) no-repeat 0 0;
+						color: #330;
+						font-size: 89%;
+						padding: 6px 75px 8px 24px;
+/* \*/					padding: 6px 55px 8px 24px; /* */
+						text-decoration: none;
+						white-space: nowrap;
+						}	
+					.bundle .purchaseGeneral a, .bundle .sendFeedback a, .isbn .isbnSummary .cover ul .purchaseGeneral a, .isbn .isbnSummary .cover ul .sendFeedback a  {
+						font-size: 80%;
+						margin-left: 6px;
+						}	
+					.isbnSummary .cover ul .reqGratisCopy {
+						margin: 0 0 14px;
+						}
+						#featuredTitle .isbnSummary ul .reqGratisCopy {
+							margin-bottom: 0;
+							}
+					.isbnSummary .cover ul .reqGratisCopy a, #featuredTitle .isbnSummary ul .reqGratisCopy a  {
+						background: transparent url(/us/assets/images/he/btnRequest.jpg) no-repeat 0 0;
+						color: #330;
+						font-size: 89%;
+						padding: 6px 25px 20px 24px;
+/* \*/					padding: 6px 7px 25px 24px; /* */
+						text-decoration: none;
+						}	
+						#featuredTitle .isbnSummary ul .reqGratisCopy a  {
+							background: transparent url(/us/assets/images/he/btnRequest2.jpg) no-repeat 0 0;
+							padding: 6px 35px 20px 24px;
+/* \*/						padding: 6px 17px 7px 24px; /* */												
+							}
+
+		.isbnList .isbnSummary {
+			border-bottom: 1px dashed #DBDBB7;
+			margin-bottom: 15px;
+			padding: 0 20px;
+			}
+		.subject .isbnList .isbnSummary {
+			padding: 0;
+			}
+		.isbnList .isbnSummary.last {
+			border-bottom: none;
+			}
+
+		.isbnList .isbnSummary .clear {
+			margin-bottom: 15px;
+			} 
+			
+	.isbnSummaryDetails {
+		margin-left: 100px;
+		}
+		.isbnSummary .isbnSummaryDetails {}
+			.bundle .isbnSummaryDetails, .isbn .isbnSummaryDetails {
+				margin: 0 0 1em;
+				}
+			#featuredTitle .isbnSummary .isbnSummaryDetails {
+				margin-left: 73px;
+				}
+			.isbnList .isbnSummaryDetails {
+				float: right;
+				width: 98%;
+				}
+				
+	.isbnSummaryHeading {}
+		.bundle .isbnSummaryHeading, .isbn .isbnSummaryHeading {
+			margin: 0 0 1em;
+			}
+			
+	.isbnSummaryWrap {}
+		.isbnList .isbnSummaryWrap {
+			margin: 0 0 0 65px;
+			}
+		.internal .isbnList .isbnSummaryWrap {
+			margin: 0 0 0 95px;
+			}
+		#features .isbnSummary .isbnSummaryWrap {
+			width: auto;
+			}
+
+	.layout12Alt .inner {
+		margin-top: 12px;
+		}
+
+	#linksOfInterest{
+		margin: 0 0 3px;	
+		}
+		#linksOfInterest h1 {
+			color: #5A4726;
+			font-size: 110%;
+			margin: 0;
+			padding: 0;
+			}
+		#linksOfInterest li {
+			padding: 0 0 5px;
+			}
+		#linksOfInterest ul  {
+			margin: 0;
+			padding: 0 0 0 15px;
+			}
+
+	#mailingListSubscribe {
+		margin: 20px 0 0;
+		padding-bottom: 5px;
+		}
+		#mailingListSubscribe.alignRight {
+			width: 190px;
+			float: right;
+			margin: 0;
+			padding-bottom: 3px;
+			}
+			.isbn #mailingListSubscribe.alignRight {
+				width: auto;
+				float: none;
+				text-align:left;
+				}
+
+		#highlight #mailingListSubscribe {
+			padding-bottom: 0;
+			margin: 0;
+			}
+		#isbnHeading #mailingListSubscribe {
+			text-align: left;
+			margin: 0;
+			}
+		#mailingListSubscribe h2 {
+			color: #9C0000;
+			margin: 0;
+			}
+		#mailingListSubscribe .button {
+			font-size: 80%;
+			margin: 0 2px 2px 0;
+			padding: 1px;	
+			width: 6em;
+			}
+			.internal #mailingListSubscribe .button {
+				float: right;
+				}
+			/* See also .button */
+		#mailingListSubscribe #fieldMailingListSubscribe{}
+			.internal #mailingListSubscribe #fieldMailingListSubscribe{
+				width: 95%;
+				}
+			#highlight #mailingListSubscribe #fieldMailingListSubscribe{
+				width: 61%;
+				}
+		#mailingListSubscribe .linkMore {}
+			.internal .advertising #mailingListSubscribe .linkMore {
+				clear: none;
+				display: inline;
+				float: left;
+				margin: 0;
+				}
+				.internal .advertising #mailingListSubscribe .linkMore a {
+					background: url(../../he/styles/none);
+					padding: 0;
+					}
+			#highlight #mailingListSubscribe .linkMore {	
+				display: block;
+				margin-right: 80px;
+				text-align: right;
+				}
+				.corporate #mailingListSubscribe .linkMore {	
+					margin-right: 0;
+					}
+
+	.merchandising{
+		padding: 5px;
+		}
+		.merchandising h1 {
+			color: #5A4726;
+			margin: 0 0 5px;
+			padding: 0;
+			font-size: 105%;
+			}
+		.merchandising h1 a {
+			color: #5A4726;
+			}
+		.merchandising ul {
+			list-style: none url(../../he/styles/none);
+			margin: 0;
+			padding: 0;
+			}
+		.merchandisingBook,
+		.merchandising li {
+			margin: 0 0 10px 0;
+			}
+		.merchandising .upsell {
+			border-bottom: 1px dashed #B8C8DE;
+			padding: 0 0 15px;
+			margin: 0 0 10px;
+			}
+			.merchandising .upsell.first {
+				border-top: none;
+				padding: 0 0 10px;	
+				}
+			.merchandising .upsell.last {
+				border-bottom: none;
+				padding: 0 0 10px;	
+				}
+
+	.navBrowse {
+		margin: 0;
+		padding: 0;
+		}
+		.navBrowse.bottom {
+			border: none;
+			margin: 10px 0 0;
+			}
+		.navBrowse h2 {
+			display: inline;
+			}
+		.navBrowse .inputButton {
+			display: inline;
+			position: relative;
+			left: 10px;
+			}
+		.navBrowse .sortSearch {}
+			.results .navBrowse .sortSearch {
+				height: 4em;
+				}
+			.navBrowse .sortSearch form {
+				margin:0;
+				padding: 0;
+				}
+			.navBrowse .sortSearch label {
+				color: #333;
+				font-weight: bold;
+				font-size: 90%;
+				}
+			.navBrowse .sortSearch .button{
+				margin: -2px 0 0;
+				}			
+				.results .navBrowse .sortSearch .button{
+					margin: 8px 0 0 10px;
+					}
+			.navBrowse .sortSearch .display{
+				padding: 6px 10px 0 0;
+				float: left;
+				}			
+				.navBrowse .sortSearch .display input {
+					margin-bottom: -3px;
+					}
+			.navBrowse .sortSearch .formField {
+				margin: 5px 0 0;
+				}
+				.navBrowse .sortSearch .formField select {
+					font-size: 90%;
+					}
+			.navBrowse .sortSearch .navNumberResults {
+				float: left;
+				margin: 10px 10px 20px 0;
+				}
+			.navBrowse .sortSearch .navResults {
+				padding: 0;
+				margin: 0;
+				}
+			.navBrowse .sortSearch .navSort {
+				float: left;
+				margin: 0;
+				padding:0;
+				}
+				.results .navBrowse .sortSearch .navSort {
+					float: none;
+					}
+		.navBrowse .next,
+		.navBrowse .previous {
+			font-size: 110%;
+			font-weight: bold;
+			}
+		.navBrowse .radioFieldGroup {
+			display: inline;
+			}
+			.navBrowse .radioFieldGroup .radioField label {
+				font-weight: normal;
+				}
+		.navBrowse .resultsNumber {
+			display: block;
+			margin: 0;
+			}
+		.navBrowse .resultsSort {
+			display: block;
+			margin: 0 0 15px;
+			}
+			.navBrowse .resultsSort .sortCurrent {
+				font-weight: bold;
+				}
+		.navBrowse .sortSearch {
+			margin: 10px 0;
+			}
+		.internal .navBottomBrowse {
+/*			border-top: 1px dashed #DADAB5;  */
+			padding: 15px 0 0;
+			margin: 10px 0 15px;
+			}
+
+	.navResults {
+		font-size: 90%;
+		}
+
+	.newsTickerContainer {}
+		#newsTicker h1 {
+			font-size: 100%;
+			margin: 0;
+			padding: 0 5px 5px;
+			}
+			#newsTicker a {
+				text-decoration: none;
+				}
+			#newsTicker a:hover {
+				text-decoration: underline;
+				}
+		#newsTicker {
+			margin: 0 0 3px;
+			padding: 0;
+			}
+		#newsTicker .newsItem {
+			display: block; 
+			margin: 0 0 10px 0; 
+			padding: 0 10px 0 5px;
+			}
+	.pages {}
+		.pages a {
+			text-decoration: none;
+			}
+		.pages a:hover {
+			text-decoration: underline;
+			}
+		.pages .selected {
+			font-size: 110%;
+			font-weight: bold;
+			}
+
+	.oup {
+		white-space: nowrap;
+		}
+
+	#printerFriendly {
+		display: block;
+		margin: 0 0 10px 5px;
+		text-align: left;
+		}
+		#printerFriendly a {
+			background:   url("/us/assets/images/print.gif") no-repeat left center;			
+			padding: 1px 0 1px 25px;
+			}
+			
+	#productDetails {
+		}
+		.isbn #productDetails {
+			margin: 0 0 1em;
+			}
+
+	#promoCode{}
+		#highlight #promoCode {
+			padding-bottom: 20px;
+			}
+		#purchase #promoCode {
+			text-align: left;
+			margin: 0;
+			}
+		#promoCode h2 {
+			margin: 0;
+			padding: 0;
+			}
+		#promoCode .button {}
+			#highlight #promoCode .button {
+				margin: 0 2px 0 0;
+				}
+			.internal #promoCode .button {
+				float: left;		
+				} 
+			.isbn #promoCode .button{	
+				margin: 0;
+				}
+		#promoCode #fieldPromoCode {
+			width: 69%;
+			}
+			#highlight #promoCode #fieldPromoCode {
+				width: 69%;
+				}
+			.internal #promoCode #fieldPromoCode {
+				float: left;
+				}
+			.isbn #promoCode #fieldPromoCode {
+				width: 69%;
+				}
+		#promoCode .linkMore {}
+			#highlight #promoCode .linkMore {	
+				display: block;
+				margin: 0 65px 0 0;
+				text-align: right;
+				}
+		.searchBarContainer #promoCode{
+			width: 200px;
+			margin: 0 0 0 -10px;
+			}
+			.searchBarContainer #promoCode img {
+				float: left;
+				display: block;
+				margin: 5px 2px 0 0;
+				}
+			.searchBarContainer #promoCode .button {
+				margin-top: -1px;
+				}
+			.searchBarContainer #promoCode .linkMore{
+				float: right;
+				margin-right: 35px;
+				}
+			.searchBarContainer #promoCode #fieldPromoCode {
+				color: #5A4726;
+				font-size: 75%;
+				width: 15em;
+				}
+
+
+	#purchase {
+		text-align: center;
+		}
+		#purchase img {
+			border: 0;
+			float: none;
+			margin: 0 0 10px 0;
+			}
+
+
+	#recentSearches {
+		margin: 10px 0 10px 1px;
+		min-height: 100px;
+		padding: 0 0 20px;
+		position: relative;
+		}
+		#recentSearches h2 {
+			margin: 0;
+			padding: 5px 10px 0;
+			}
+		#recentSearches ul {
+			margin: 5px 0 0 30px;
+			padding: 0;
+			}
+		#recentSearches .smallText {
+			display: block;
+			left: 0;
+			bottom: 0;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+			}
+
+	.redArrow{
+		margin: 0;
+		padding: 0;
+		text-align: left;	
+		}
+		.redArrow ul {
+			list-style:   url("/us/assets/images/he/arrowRed.gif");
+			margin: 0 0 0;
+			padding: 0 0 0 25px;
+			}
+	
+	#relatedLinks {
+		}
+		#relatedLinks li {
+			padding: 0 0 5px;
+			}
+			#relatedLinks li a {
+				background: transparent url(/us/assets/images/he/bulletRelated.gif) no-repeat 0 5px;
+				padding: 0 0 0 12px;
+				}
+		#relatedLinks ul {
+			list-style: none;
+			list-style-image: none;
+			margin-left: 6px;
+			}				
+			
+  .requiredAsterisk {
+		color: #cc0000;
+		}
+			
+  #sampleChapterInfo {
+		/* used on us_view_isbn.jsp */
+		padding-top: 10px;
+		}
+
+	.seriesIndex .crossSellContainer {
+		margin-top: 20px;
+		}
+
+
+	.searchBarContainer {
+		background: #B7BFC9;
+		padding: 4px 0 3px 3px;
+		}
+		#searchBarBottom {
+			border-bottom: 1px solid #7F7FB2;			
+			border-top: 1px solid #7F7FB2;
+			}
+		#searchBarTop {
+			border-top: none;
+			margin: 75px 0 0;
+			padding: 5px 0;
+			}
+		.searchAd {
+			float: right; 
+			margin: 0 0 0 10px;  
+			padding: 0; 
+			width: 209px; 
+			}
+
+/* May need to remove */
+			.internal .searchAd form {
+				padding: 0;
+				margin: 2px 0 0;
+				}
+/* */
+			.searchAd span {
+				border: none;
+				margin: 0;
+				padding: 0;
+				}
+			.searchAd a {
+				text-decoration: none; /* Force Mozilla to underline the link */
+				display: block;
+				}
+				.searchAd a:hover {
+					text-decoration: none;
+					}
+			.searchAd #promoCode {
+				padding: 0;
+				}
+			.searchAd .title {
+				display: block;
+				font-weight: bold;
+				margin: 0;
+				padding: 0;
+				}
+		.searchBar {
+			padding: 2px 0 0 0;
+			margin: 0 0 0 -4px;
+			width: 70%;
+			text-align:center;
+			}
+			.searchBar form {
+				margin: 0;
+				padding: 0;
+				}
+		.searchBookField{ 
+			width: 57%;
+			}
+		.searchBar .linkMore {
+			clear: both;
+			display: block;
+			text-align: right;
+			margin-right: 15%;
+			}
+			.searchBar .linkMore a {
+				text-decoration: none;
+				}
+			.searchBar .linkMore a:hover {
+				text-decoration: underline;
+				}
+				
+	#sidebar {
+		float: right;
+		margin: 0 5px 15px 15px;
+		width: 33%;
+		}
+		
+		#sidebar .in {
+			padding: 15px;	
+			}
+		.tl#sidebar {
+			background: transparent url(/us/assets/images/he/bgSidebarTL.gif) no-repeat left top;
+			}
+		#sidebar .tr {
+			background: transparent url(/us/assets/images/he/bgSidebarTR.gif) no-repeat right top;
+			}
+		#sidebar .bl {
+			background: transparent url(/us/assets/images/he/bgSidebarBL.gif) no-repeat left bottom;
+			}
+		#sidebar .br {
+			background: transparent url(/us/assets/images/he/bgSidebarBR.gif) no-repeat right bottom;
+			}	
+
+
+	.subject {}
+
+
+	#subjects {
+		border: 1px solid #fff;
+		margin: 0 0 6px;
+		padding: 0;
+		}
+		#subjectHeading {
+			background:   url("/us/assets/images/bgSubjectHeading.gif") repeat-x left bottom;
+			height: 1.5em; /* added to compensate for removal of clear:both from #drillDown and .subjectsList */
+			}
+		#subjects h1 {
+			color: #333;
+			display: inline;
+			float: left;
+			font-size: 90%;
+			font-weight: bold;
+			margin: 3px 7px 0 3px;
+			padding: 0;
+			}
+		#subjects ul {
+			list-style: none;
+			}
+		#subjects #mainSubjects {}
+			#subjects #mainSubjects li {
+				margin: 0 0 2px 0;
+				} 
+			#subjects #mainSubjects ul {
+				margin: 0;
+				padding: 0 8px 8px;
+				}  
+
+	.subjectsList {
+		border-top: none;
+		/* clear: both;  <--- this was breaking FF 1.0. see also: #drillDown, #subjectHeading */
+		margin: 0 0 10px;
+		}
+		.search .subjectsList, 
+		#home .subjectsList {
+			padding: 3px 0 0;
+			}
+
+	.tabs {
+		margin: 0;
+		padding: 0;
+		}
+		.tabsContainer {
+			margin: 0 0 -10px;
+			width: 100%;
+			}
+		.tabsContainer .tabs {
+			font-size: 80%;
+			list-style: none;
+			margin-left: 10px;
+			}
+		.tabs li {
+			float: left;  
+			margin: 0 5px 0 0; 
+			}
+			.tabsContainer .tabs li {
+				margin: 0 3px 0 0;
+				}
+			.tabs li a {
+				display: block;
+				font-weight: bold;
+				text-decoration: none;
+				background: url("/us/assets/images/browseTabs/right.gif") no-repeat 100% -150px;
+				padding: 0;
+				margin: 0;
+				}
+				#content .tabs li a {
+					background: url("/us/assets/images/browseTabs/rightAlt.gif") no-repeat 100% -150px;
+					}
+
+				.tabs li a span {
+					background: url("/us/assets/images/browseTabs/left.gif") no-repeat 0 -150px;
+					display: block;
+					padding: 2px 3px 1px 3px;
+					margin: 0;
+					}
+				#content .tabs li a span {
+					background: url("/us/assets/images/browseTabs/leftAlt.gif") no-repeat 0 -150px;				
+					}
+				.tabsContainer .tabs li a span {
+					padding: 4px 8px 2px;
+					margin-top: 6px;
+					}
+			.tabs li.current a {
+				background-position: right top;
+				}
+				#content .tabs li.current a {
+					background-position: right top;
+					}
+			.tabs li.current a span {
+				background-position: left top;
+				padding-bottom: 2px;
+				margin: 0;
+				}
+				#content .tabsContainer .tabs li.current a span {
+					background-position: left top;
+					font-size: 120%;
+					padding: 6px 12px 4px;
+					}
+		.tabs a:hover {
+			text-decoration: none;
+			}
+
+
+	.textAdSingle {}
+		.textAdSingle h2 {
+			margin: 0;
+			padding: 0;
+			}
+			
+	.textAdMulti {
+		margin: 3px 0 0 0;
+		padding: 10px;
+		}
+		.textAdMulti li {
+			padding: 0 0 7px 0;
+			}
+		.textAdMulti ul {
+			margin: 0;
+			padding: 0 0 0 15px;
+			list-style:   url("/us/assets/images/he/arrowRed.gif") none;
+			}
+		.textAdMulti .heading {
+			font-weight: bold;
+			}
+
+
+
+
+
+/* integrate into above */
+	.subjectsList {
+		border: 1px solid #BCBC78;
+		}
+		
+	#subjects .solidDarkTan {
+		background: none;
+		border: none;
+		margin-bottom: 0;
+		}
+		#subjects {
+			padding: 0 0 5px 0;
+			background: url(/us/assets/images/he/bgDrilldown.gif) no-repeat left bottom;
+			width: 199px;
+			}
+	#subjects .drillDownContainer {
+		background: url(/us/assets/images/he/bgDrilldownTop.gif) no-repeat left top;	
+		padding: 16px 0 0 0;
+		}
+	#drillDown {
+		background-color: #DFDFC6;
+		border-left: 1px solid #BCBC76;	
+		border-right: 1px solid #BCBC76;
+		}
+		#drillDown h2 {
+			font-family: tahoma;
+			font-size: 105%;
+			margin: -8px 0 8px 2px;
+			padding: 0;
+			}
+		#drillDown p {
+			margin: -8px 10px 8px;
+			}
+			#drillDown p a {
+				text-decoration: none;
+				}
+	.alignRight {
+		float: right;
+		width: 45%;
+		}
+	.isbnSummary .cover {
+		margin: 0;
+		float: left;
+		}
+	.isbnList .isbnSummaryDetails {
+		float: none;
+		width: auto;
+		}
+		
+		#discoverBooks {
+			padding: 0 25px 0;
+			}
+		#features {
+			padding: 5px 15px;
+			}
+		.featureLeft {
+			width: 45%;
+			float: left;
+			}
+		.featureRight {
+			width: 45%;
+			float: right;
+			}

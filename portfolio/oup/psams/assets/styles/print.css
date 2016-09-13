@@ -1,0 +1,50 @@
+/* CSS Document */
+
+	#c1 {
+		height: auto !important;
+		width: 650px !important;
+		}
+		
+	#description {
+		border: none;
+		}
+	
+	#header {
+		/* padding-bottom: 10px; */
+		}
+		#header #logo {
+			display: inline;
+			background: none;
+			height: auto;
+			width: auto;
+			}
+	#header #logo img {
+		border: 0;
+		display: block;
+		visibility: visible;
+		}
+		
+	#isbnDetails {
+		margin: 0;
+		}	
+		
+	#tocTab {
+		display: block;
+		visibility: visible;
+		page-break-before: always;
+		}
+	
+	/* Hidden items */
+	#c2, 
+	#c3,
+	#footer .navUtility,
+	.navAction,
+	#navigation,
+	#navUtility,
+	#relatedFiles,
+	#sortSearch,
+	#tabs
+	 {
+		display: none;
+		}
+

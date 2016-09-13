@@ -1,0 +1,88 @@
+/* Structural Styles */
+
+	body {
+		margin: 0;
+		padding: 0;
+		}
+
+	.clear {
+		clear: both;
+		height: 1px;
+		margin-top: -1px;
+		overflow: hidden;
+		}
+
+	.outer {
+		border-top: 1px solid #2E2F81; /* Mozilla bug fix */
+		margin: -1px auto 0; /* -1px top margin is a Mozilla bug fix */
+		max-width: 1000px;
+		min-width: 740px;
+		position: relative;
+		}
+
+	.inner {
+		background: #fff;
+		position: relative;
+		}
+		
+		/* 1 */
+			.layout1 #c1 {
+				margin: 0;
+				}
+
+			.layout1 #c2 {
+				display: none;
+				}
+
+			.layout1 #c3 {
+				display: none;
+				}		
+
+		/* 12 */
+			.layout12 #c1 {
+				margin: 0 179px 0 0;
+				}
+
+			.layout12 #c2 {
+				position:absolute;
+					right: 0;
+					top: 0;
+				width: 179px;
+				}
+
+			.layout12 #c3 {
+				display: none;
+				}
+				
+		/* 21 */
+			.layout21 #c1 {
+				margin: 0 0 0 130px;
+				}
+
+			.layout21 #c2 {
+				position:absolute;
+					left: 0;
+					top: 0;
+				width: 130px;
+				}
+			.layout21 #c3 {
+				display: none;
+				}
+				
+		/* 312 */
+			.layout312 #c1 {
+				margin: 0 179px 0 130px;
+				}
+
+			.layout312 #c2 {
+				position:absolute;
+					right: 0;
+					top: 0;
+				width: 179px;
+				}
+			.layout312 #c3 {
+				position:absolute;
+					left: 0;
+					top: 0;
+				width: 130px;
+				}									

@@ -1,0 +1,5 @@
+<ul>
+	<!-- TemplateBeginRepeat name="News Items" -->
+	<li><span class="date"><!-- TemplateBeginEditable name="Date" -->Date<!-- TemplateEndEditable --></span><span class="news"><!-- TemplateBeginEditable name="news" -->News Item<!-- TemplateEndEditable --></span></li>
+	<!-- TemplateEndRepeat -->
+</ul>

@@ -1,0 +1,171 @@
+/* Structural Styles */
+
+	body {
+		margin: 0;
+		padding: 0;
+		}
+
+	.clear {
+		clear: both;
+		display: block;
+		height: 1px;
+		margin-top: -1px;
+		overflow: hidden;
+		}
+
+	.outer {
+		border-top: 1px solid #999;
+		margin: -1px auto 0;
+		max-width: 1000px;
+		min-width: 760px;
+		position: relative;
+		}
+
+	.inner {
+		position: relative;
+		}
+
+
+		/* 312 */
+			.layout312 #c1 {
+				margin: 0 200px 0;
+				}
+
+			.layout312 #c2 {
+				position:absolute;
+					right: 0;
+					top: 0;
+				width: 200px;
+				}
+
+			.layout312 #c3 {
+				position:absolute;
+					left: 0;
+					top: 0;
+				width: 200px;
+				}
+
+		/* 213 */
+			.layout213 #c1 {
+				margin: 0 200px 0;
+				}
+
+			.layout213 #c2 {
+				position:absolute;
+					left: 0;
+					top: 0;
+				width: 200px;
+				}
+
+			.layout213 #c3 {
+				position: absolute;
+					right: 0;
+					top: 0;
+				width: 200px;
+				}
+
+
+		/* 123 */
+			.layout123 #c1 {
+				margin: 0 400px 0 0;
+				}
+
+			.layout123 #c2 {
+				position:absolute;
+					right: 200px;
+					top: 0;
+				width: 200px;
+				}
+
+			.layout123 #c3 {
+				position: absolute;
+					right: 0;
+					top: 0;
+				width: 200px;
+				}
+
+		/* 231 */
+			.layout231 #c1 {
+				margin: 0 0 0 400px;
+				}
+
+			.layout231 #c2 {
+				position:absolute;
+					left: 0;
+					top: 0;
+				width: 200px;
+				}
+
+			.layout231 #c3 {
+				position: absolute;
+					left: 200px;
+					top: 0;
+				width: 200px;
+				}
+
+		/* 12*/
+			.layout12 #c1 {
+				margin: 0 200px 0 0;
+				}
+
+			.layout12 #c2 {
+				position:absolute;
+					right: 0;
+					top: 0;
+				width: 200px;
+				}
+
+			.layout12 #c3 {
+				display: none;
+				visibility: hidden;
+				}
+				
+			.layout12 #ic1 {
+				border-bottom: 1px solid #fff; /* Mozilla bug fix */
+				margin: 0 189px 1px -5px;
+				}
+			
+			.layout12 #ic2 {
+				border-bottom: 1px solid #FAFAF7; /* Mozilla bug fix */			
+				position: absolute;
+					right: 0;
+					top: 0;
+				width: 189px;
+				}				
+
+		/* 12Alt */
+			.layout12Alt #c1 {
+				margin: 0 215px 0 0;
+				}
+
+			.layout12Alt #c2 {
+				position:absolute;
+					right: 0;
+					top: 0;
+				width: 215px;
+				}
+
+			.layout12Alt #c3 {
+				display: none;
+				visibility: hidden;
+				}
+		
+		
+		/* 21 */
+			.layout21 #c1 {
+				margin: 0 0 0 200px;
+				}
+
+			.layout21 #c2 {
+				position:absolute;
+					left: 0;
+					top: 0;
+				width: 200px;
+				}
+
+			.layout21 #c3 {
+				display: none;
+				visibility: hidden;
+				}
+	
+			

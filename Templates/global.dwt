@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title> - Robb Hamilton</title>
+<!-- TemplateEndEditable -->
+<link rel="icon" type="image/png" href="/assets/images/ui/favicon.png" />
+<link rel="stylesheet" type="text/css" href="/assets/styles/global.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/styles/print.css" media="print" />
+<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- TemplateParam name="layout" type="text" value="layout12" --><!-- TemplateParam name="section" type="text" value="section" --><!-- TemplateParam name="pagenumber" type="number" value="" -->
+</head>
+<body class="@@(layout)@@ @@(section)@@ @@(pagenumber ? 'page' + pagenumber : '')@@">
+	<div class="outer" id="top">
+		<!--#include virtual="/assets/includes/header.html" -->
+		<div class="inner">
+			<div id="c1">
+				<!-- TemplateBeginEditable name="c1" -->
+				<!-- TemplateEndEditable -->
+			</div><!--/c1-->
+			<!-- TemplateBeginIf cond="layout!='layout1'" -->
+			<div id="c2">
+				<!-- TemplateBeginEditable name="c2" -->
+				<!-- TemplateEndEditable -->
+			</div><!--/c2-->
+			<!-- TemplateEndIf -->
+		</div>
+		<!--/inner-->
+		<!--#include virtual="/assets/includes/navigation/navPrimary.html" -->
+		<!--#include virtual="/assets/includes/footer.html" -->		
+	</div><!--/outer-->
+	<!--#include virtual="/assets/includes/analytics.html" -->	
+</body>
+</html>

@@ -1,0 +1,559 @@
+/* Composition Styles */
+
+	#aboutAuthor, #productDetails {
+		margin: 0 15px 15px 0;
+		padding: 0;		
+		}
+		
+	#browse {
+		}
+		#browse a {
+			text-decoration: none;
+			}
+		#browse h1 {
+			background: #F2F2E8 url(../images/ui/bg_tabs.jpg) repeat-x;
+			border-bottom: 1px solid #CDCDA5;
+			color: #5A4726;
+			font-size: 120%;
+			margin: 0 0 10px;
+			padding: 9px 0 7px 9px;
+			}
+		#browse li {
+			margin: 0 0 .7em 10px;
+			padding: 0;
+			}
+		#browse ul {
+			float: left;
+			list-style: none;
+			margin: 0 2% 0 0;
+			padding: 0;
+			width: 29%;
+			}
+
+	.content {
+		padding: 15px 15px 30px;
+		}
+		#footer .content {
+			border-top: 1px dotted #BDBD89;
+			padding: 10px 0 15px;
+			}
+		.layout312 #c1 .content {
+			padding-left: 0;
+			}
+		
+	#description {
+		border-top: 1px dotted #CECEA7;
+		clear: both;
+		margin: 5px 15px 15px 0;
+		padding: 15px 0 0;
+		}		
+		
+	#detailedInfo {
+		clear: both;	
+		position: relative;
+			top: 5px;
+		}
+
+	#footer {
+		background: #fff;
+		clear: both;
+		font-size: 89%;
+		line-height: 115%;
+		padding: 15px 15px 0;
+		}
+		#footer fieldset {
+			float: right;
+			}
+
+	#header {
+		background: transparent url(../images/ui/bg_header.jpg) no-repeat 100% 50%;
+		height: 88px;
+		margin: 0 0 6px;
+		width: 100%;
+		}
+		#header #logo {
+			display: block;
+			background: url(../images/ui/logo.gif) no-repeat;
+			height: 43px;
+			position: relative;
+				left: 14px;
+				top: 21px;
+			width: 148px;
+			}
+		#header #logo img {
+			border: 0;
+			display: none;
+			}
+				
+	#isbnDetails {
+			margin: 0 180px 0 0;
+			padding: 0;
+			position: relative;
+				top: 15px;
+			}
+			#isbnDetails h2, #relatedFiles h2 {
+				color: #5A4726;
+				font-size: 110%;
+				font-style: normal;
+				}
+			#isbnDetails li {
+				background: url(../images/ui/bullet.gif) no-repeat 0 11px;
+				padding-left: 10px;
+				}
+			#isbnDetails ul {
+				margin: 0 0 0 10px;
+				padding: 0;
+				list-style: none;					
+				}				
+				
+		.isbnProperties{}
+			.isbnProperties h1 {
+				font-size: 110%;
+				}
+				.isbn .isbnProperties h1 {
+					font-size: 135%;
+					font-weight: bold;
+					margin: 0 0 3px;
+					}
+			.isbnProperties h2 {
+				font-size: 105%;
+				font-weight: bold;
+				margin: 0;
+				padding: 0;
+				}
+				.isbn .isbnProperties h2 {
+					font-size: 105%;
+					}
+			.isbnProperties h3, 
+			.isbn .isbnProperties h2 {
+				display: inline;
+				font-size: 100%;
+				font-style: normal;
+				font-weight: bold;	
+				}
+			.isbnProperties .author {
+				font-style: normal;
+				font-variant: small-caps;
+				white-space: nowrap;
+				}
+			.isbnProperties .availability {
+				display: block;	 
+				float: left;
+				}
+			.isbnProperties .byline {
+				font-style: italic;
+				}
+			.searchResults .isbnProperties .isbnList .clear {
+				display: none;
+				}				
+			.isbnSummary .cover {
+				margin: 0 0 0 0;
+				text-align: center;
+				width: 100px;
+				}
+				.isbn .isbnSummary .cover {
+					float: left;
+					margin: 10px 0 0;
+					width: 90px;
+					}
+				.isbnProperties .cover img {
+					border: 0;
+					margin: 0 auto;
+					}
+				.searchResults .isbnSummary .cover {
+					float: none;
+					position: absolute;
+						left: 0;
+						top: 0;
+					}
+			.isbnProperties .description {
+				display: block;
+				margin: 8px 0 0;
+				}
+			.isbnProperties .edition {
+				display: block;
+				font-size: 85%;
+				padding: 0;
+				margin: -2px 0 0;
+				}
+			.isbnProperties .editor {
+				font-style: normal;
+				font-variant: small-caps;
+				white-space: nowrap;
+				}
+			.isbnProperties .format {
+				display: inline;
+				text-transform: capitalize;
+				}
+			.isbnProperties .isbnNumber {
+				display: block;
+				font-size: 80%;
+				color: #666666;
+				}
+			.isbnProperties .isbnNumber .formattedHyphISBN13 {
+				display: block;
+				}
+			.isbnProperties .isbnNumber .formattedHyphISBN10 {
+				display: block;
+				}
+			.isbnProperties .bookIsbnHyphens {
+				display: block;
+				}
+			.isbnProperties .bookIsbnHyphens .formattedHyphISBN13 {
+				display: block;
+				}
+			.isbnProperties .bookIsbnHyphens .formattedHyphISBN10 {
+				display: block;
+				}
+			.isbnProperties .pages {
+				display: inline;
+				}
+			.isbnProperties .price {
+				display: block;
+				color: #9C0000;
+				}
+				.isbn .isbnProperties .price {
+					display: inline;
+					color: #9C0000;
+					font-weight: bold;				
+					}
+			.isbnProperties .publicationDate {}
+				.isbn .isbnProperties .publicationDate {
+					display: block;
+					float: left;
+					}
+			.isbnProperties .set {
+				display: block;
+				font-size: 85%;
+				padding: 0;
+				margin: 0;
+				}
+			.isbnProperties .subTitle {	
+				display: block;		
+				}
+				.isbn .isbnProperties .subTitle {
+					font-size: 105%;
+					font-weight: bold;
+					}					
+				
+		.isbnSummaryDetails {}
+			.isbnSummary .isbnSummaryDetails { }
+				.isbn .isbnSummaryDetails {
+					margin: 10px 0 0 95px;
+					}
+				.isbnList .isbnSummaryDetails {
+					float: right;
+					width: 85%;
+					}	
+					.searchResults .isbnList .isbnSummaryDetails {
+						float: none;
+						margin: 0 0 0 100px;
+						width: auto;
+						}
+				.isbnList .isbnSummary {
+					border-bottom: 1px dashed #DBDBB7;
+					padding-bottom: 15px;
+					padding: 0;
+					}
+					.searchResults .isbnList .isbnSummary {	
+						margin: 0 15px 15px 0;
+						padding: 0 0 15px 0;				
+						}
+
+		.isbnSummaryWrap {
+			}
+			.searchResults .isbnSummaryWrap {
+				position: relative;			
+				}
+				
+	.navAction {
+		float: right;
+		width: 179px;
+		}
+		.navAction li {
+			border-bottom: 1px dotted #CECEA7;
+			padding: 0;
+			}
+			.navAction li a {
+				display: block;
+				padding: 5px 5px 5px 25px;			
+				text-decoration: none;
+				}
+				.navAction li.print a {
+					background: transparent url(../images/ui/icon_print.gif) no-repeat 7px 6px;
+					}				
+				.navAction li.saveBookmark a {
+					background: transparent url(../images/ui/icon_save.gif) no-repeat 7px 6px;
+					}
+		.navAction ul {
+			border-top: 1px dotted #CECEA7;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			}
+											
+	#navigation {
+		background: #F9F9F4 url(../images/ui/bg_navigation.jpg) repeat-x;
+		position: relative;
+		}
+		#navigation #catalog {
+			background: #F4F4EA url(../images/ui/bg_catalog.jpg) repeat-x;
+			padding: 9px 13px 13px;
+			width: 20%;
+			}
+		#navigation #helpLink {
+			font-size: 79%;
+			}
+		#navigation #search {
+			padding: 9px 0 0 13px;
+			position: absolute;
+				left: 24%;
+				top: 0;
+			width: 70%;
+			}	
+		#navigation label {
+			color: #0D0A54;
+			display: block;			
+			font-size: 105%;
+			font-weight: bold;
+			}	
+			#navigation #search label {
+				margin-bottom: -1px;
+				}
+	
+	#navTopics {
+		font-size: 85%;
+		list-style: none;
+		margin: 0;
+		padding: 0;		
+		}
+		#navTopics a {
+			text-decoration: none;
+			}
+		#navTopics li {
+			font-weight: bold;
+			line-height: 100%;
+			margin: 0 0 10px;
+			padding: 0;
+			}
+			#navTopics li li {
+				font-weight: normal;
+				}
+		#navTopics ul {
+			list-style: none;
+			margin: 10px 0 10px 7px;
+			padding: 0;
+			}
+				
+	#navUtility {
+		background: #fff;
+		padding: 5px 15px 0;	
+		}					
+		#navUtility #bookmark {
+			float: right;
+			font-size: 85%;
+			}
+		#navUtility #breadcrumb {
+			font-size: 79%;
+			}
+			#navUtility #breadcrumb a {
+				text-decoration: none;
+				}
+	
+	.pageNumbers {
+		padding-top: 5px ;
+	}					
+	
+	.pageNumber {
+		border: 1px solid ;
+		font-size: 90%;
+		/*font-weight: plain;  #Firefox didn't like this -rds*/
+		margin: 0 0 0 3px;
+		padding: 1px 3px;
+	}
+	
+	.queryResults {
+		margin: 0 0 15px;
+		}
+	
+	#relatedFiles {
+		background: #fff url(../images/ui/bg_related_files.jpg) no-repeat;
+		padding: 9px 11px 12px;
+		position: absolute;
+			right: 0;
+			top: 18px;
+		width: 157px;
+		}
+		.layout12 #relatedFiles, .layout312 #relatedFiles {
+			position: relative;
+				right: 15px;
+			width: auto;
+			}
+		.searchResults #relatedFiles {
+			top: 64px;
+			}
+		#relatedFiles h2 {
+			border-bottom: 1px dotted #CECEA7;
+			margin-bottom: 12px;
+			padding-bottom: 4px;
+			}
+		#relatedFiles h3 {
+			color: #B7B780;
+			font-size: 107%;
+			margin-bottom: 7px;
+			}
+		#relatedFiles li {
+			background: transparent url(../images/ui/icon_file.gif) no-repeat 0 3px;
+			padding: 0 0 5px 14px;
+			}
+			#relatedFiles li a {
+				text-decoration: none;
+				}
+		#relatedFiles ul {
+			list-style: none;
+			margin: 0 0 10px 6px;
+			padding: 0;
+			}	
+			
+	#sortSearch {
+		border-bottom: 1px dotted #CECEA7;
+		margin: -13px 0 13px 0;
+		padding: 0 7px 13px;
+		}
+		#sortSearch	label {
+			color: #333;
+			font-size: 90%;
+			font-weight: bold;
+			margin: 0 3px 0 0;
+			position: relative;
+				top: -3px;
+			}		
+
+						
+	span.formattedISBN10, span.formattedISBN13, span.formattedHyphISBN13, span.formattedHyphISBN10 {
+		display: block;
+		}	
+		
+	.star-toc-entry {
+		text-indent: -20px;
+		padding-left: 30px;
+		}
+	.star-toc-entry .star-toc-part {
+		display: block;
+		padding-top: 15px;
+		}
+	.star-toc-header {
+		}
+	.star-toc-part {
+		font-weight: bold;
+		}
+	.star-toc-chapter-num {
+		}
+	.star-toc-chapter {
+		padding-left: 10px;
+		}
+	.star-toc-author {
+		font-style: italic;
+		}
+	.star-caretcode-i {
+		font-style: italic;
+		}
+	.star-caretcode-b {
+		font-weight: bold;
+		}
+	.star-caretcode-linebreak {
+		}
+		
+	#tabs {
+		height: 5em;
+		font-size: 89%;
+		line-height: 100%;
+		}		
+		#tabs li {
+			background: none;
+			float: left;
+			padding: 0;
+			}	
+			#tabs li a {
+				background: #E5E5D0;
+				border: 1px solid #CDCDA5;
+				color: #333;
+				display: block;
+				font-weight: bold;
+				margin: 4px 0 0 5px;
+				padding: 5px 11px;
+				position: relative;
+					bottom: -5px;
+				text-decoration: none;
+				}
+				#tabs li.selected a {
+					background: #fff;
+					border-bottom: 1px solid #fff;
+						bottom: -1px;
+					color: #006;
+					padding: 7px 12px;
+					}
+			#tabs li li {
+				position: relative;
+				}
+				#tabs li li a, #tabs li.selected li a {
+					background: transparent url(../images/ui/icon_link_to_anchor.gif) no-repeat 0 6px;
+					border: none;
+					font-weight: normal;
+					margin: 0 15px 0 0;
+					padding: 5px 0 2px 13px;
+					float: left;
+					}
+			#tabs li ul {
+				background: none;
+				border-bottom: none;
+				display: none;
+				float: none;
+				margin: 0;
+				padding: 6px 0 0 15px;
+				position: absolute;
+					left: 0;			
+				}
+				#tabs li.selected ul {
+					display: block;
+					}
+		#tabs ul {
+			background: #F2F2E8 url(../images/ui/bg_tabs.jpg) repeat-x;
+			border-bottom: 1px solid #CDCDA5;
+			float: left;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			}				
+						
+  table.search-docs {
+      margin-top: 11px;
+      margin-left: 20px;
+      border-collapse: collapse;
+    }
+    table.search-docs .table-header {
+      background-color: #eee;
+        font-weight: bold;
+    }
+    table.search-docs tr {
+      border-bottom: 1px solid #999;
+    }
+    table.search-docs .table-name {
+        font-weight: bold;
+        padding-right: 10px;
+        vertical-align: top;
+    }
+    .style10 {
+      font-family: "Courier New", Courier, clean, fixed;
+    }
+    .indent {
+      padding-left: 23px;
+    }
+    .code {
+      font-family: "Courier New", Courier, clean, fixed;
+    }
+    p.example {
+      margin-top: 7px;
+    }
+				

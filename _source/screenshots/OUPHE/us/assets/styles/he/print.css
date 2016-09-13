@@ -1,0 +1,29 @@
+/* CSS Document */
+
+	#c1 {
+		height: auto;
+		}
+	
+	#header {
+		padding-bottom: 10px;
+		}
+		#header #logo {
+			display: inline;
+			background: none;
+			height: auto;
+			width: auto;
+			}
+	#header #logo img {
+		border: 0;
+		display: block;
+		visibility: visible;
+		}	
+	
+	/* Hidden items */
+	#c2, 
+	#c3,
+	#footer .navUtility,
+	#navPrimary {
+		display: none;
+		}
+	

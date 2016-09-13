@@ -1,0 +1,114 @@
+/* HTML Elements */ 
+	a {} /* Avoid using as will assign it to <a name=""> */
+		a:link{
+			color: #006;
+			}
+		a:visited {
+			color: #6A6EAB
+			}
+		a:hover {
+			color: #9C0000;
+			} 
+	
+	body {
+		background: #fff url(../images/ui/bg_body.jpg) repeat-x;
+		font: 83%/120% arial, verdana, helvetica, sans-serif;
+		}
+	
+	dl, ol, ul {
+		margin-top: 0;
+		}
+		
+	fieldset {
+		border: none;
+		margin: 0;
+		padding: 0;
+		}
+		
+	form {
+		margin: 0;
+		padding: 0;
+		}
+	
+	li {
+		padding-bottom: 0;
+		padding-top: 6px;
+		margin: auto auto auto 0;
+		}
+		li p, li h2 {
+			font-size: 100%;
+			}
+	
+	p, td {
+		margin-top: 0;
+		}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-family: arial, verdana, helvetica, sans-serif;
+		margin: 0 0 10px;
+		}
+		h1 {
+			font-size: 140%; 
+			}
+		h2 {
+			font-size: 130%; 
+			}
+		h3 {
+			font-size: 120%; 
+			}
+		h4 {
+			font-size: 110%; 
+			}
+		h5 {
+			font-size: 100%; 
+			}
+		h6 {
+			font-size: 100%; 
+			}
+	
+	img {
+		border: none;
+		}
+
+/* Format Classes */
+	.alignLeft {
+		clear: left;
+		float: left;
+		width: 40%;
+		}
+		img.alignLeft {
+			width: auto;
+			}
+		li.alignLeft {
+			width: 45%;
+			}
+	
+	.alignRight {
+		clear: right; 
+		float: right;
+		width: 40%;
+		}
+		img.alignRight {
+			width: auto;
+			}
+		li.alignRight {
+			clear: none;
+			float: none;
+			width: auto;
+			}
+			
+	.button {
+		background: #006 url(../images/ui/bg_button.jpg) repeat-x;
+		border: 1px outset #fff;
+		color: #fff;
+		font-size: 95%;
+		font-weight: bold;
+		margin: 0 0 0 3px;
+		padding: 1px 3px;
+		}			
+			
+	.hidden {
+		display: none;
+		visibility: hidden;
+		}
+	

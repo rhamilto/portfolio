@@ -1,0 +1,23 @@
+<Marketing>
+	<Tagline>Your plan for better health</Tagline>
+	<LeftLink uri="https://www.bcbsnc.com/health-wellness/">Health and wellness »</LeftLink>
+	<RightLink uri="http://www.bcbsnc.com/inside/company/television/2006/">Member stories »</RightLink>
+	<AdditionalLinks display="true"><!-- Min links is 1; Max links is 4! -->
+		<Link uri="http://www.google.com">Link One goes here</Link>
+		<Link uri="http://www.yahoo.com">Link Two Lives in this Space</Link>
+		<Link uri="http://www.msn.com">Link Three Here</Link>
+		<Link uri="http://www.rollyo.com">Link Four Can Go Here</Link>
+	</AdditionalLinks>
+	<Panels>
+		<Panel>
+			<Background path="../images/home/james_prevatte.jpg" />		
+			<Name>James Prevatte</Name>
+			<Quote>"I really enjoy walking. And I've got all kinds of energy. I've got more spunk now than I had when I was probably 17."</Quote>
+		</Panel>	
+		<Panel>
+			<Background path="../images/home/dasia_brown.jpg" />		
+			<Name>D'Asia Brown</Name>
+			<Quote>"I've lost 15 pounds and I think that's a really great start. I plan to keep losing weight. That's what I'm trying to accomplish."</Quote>
+		</Panel>
+	</Panels>
+</Marketing>

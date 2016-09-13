@@ -1,0 +1,64 @@
+/* Elements */
+@media screen {
+		form { 
+			margin: 0; 
+			padding: 0; 
+			}
+	
+		li.alignRight {
+			clear: right;
+			float: right;
+			width: 48%;
+			}
+	
+	/* Format Styles */
+		.twoColList {
+			zoom: 100%;
+			}
+	
+	/* Composition Styles */
+		#navPrimary li {
+			word-wrap: normal;
+			white-space:nowrap;
+			}
+			#navPrimary li li {
+				float: left;
+				}
+			#navPrimary li li a {
+				zoom: 100%;
+				}
+			#navPrimary li ul {
+				clear: left; 
+				}
+
+	
+	
+	/* Structural Styles */
+		div {
+			position: relative;
+			zoom: 100%;
+			word-wrap: break-word;
+			}
+	
+		.clear {
+			display: none;
+			}
+	
+		.outer {
+			width: 757px;
+			w\idth:expression(document.body.clientWidth > 1000? "998px": (document.body.clientWidth < 760? "757px": "auto" ) );
+			/* SMBH hides the width expression from IE5 and IE5.5 PC) */
+			}
+	}	
+	
+	@media print {
+		body {
+			f\ont: 110%/130% "trebuchet ms", arial, verdana, helvetica, sans-serif;
+			/* Must be bigger than screen font or there will be white space between the end of the content and the footer */
+			}
+		#c1{
+			w\idth: 600px;
+			}
+		}
+
+
