@@ -38,13 +38,13 @@
 						<dt>Highlights</dt>
 						<dd>Write something for here.</dd>
 						<dt>Developed for</dt>
-						<dd>iContact Corporation</dd>							
+						<dd>iContact Corporation</dd>
 					</dl>
 				<!-- TemplateEndEditable -->
 				</div><!--/content-->
 				<!-- InstanceEndEditable -->
 			</div><!--/c1-->
-			
+
 			<div id="c2">
 				<!-- InstanceBeginEditable name="c2" -->
 					<dl id="screenshot">
@@ -61,12 +61,12 @@
 					<script type="text/javascript">display();</script>
 				<!-- InstanceEndEditable -->
 			</div><!--/c2-->
-			
+
 		</div>
 		<!--/inner-->
 		<!--#include virtual="/assets/includes/navigation/navPrimary.html" -->
-		<!--#include virtual="/assets/includes/footer.html" -->		
+		<!--#include virtual="/assets/includes/footer.html" -->
 	</div><!--/outer-->
-	<!--#include virtual="/assets/includes/analytics.html" -->	
+	<!--#include virtual="/assets/includes/analytics.html" -->
 </body>
 <!-- InstanceEnd --></html>

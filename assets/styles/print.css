@@ -1,6 +1,6 @@
 /* Print styles for v3 of robbhamilton.com */
 
-/* HTML Elements */ 
+/* HTML Elements */
 
 	body {
 		font: 10pt/14pt 'Open Sans', sans-serif;
@@ -40,7 +40,7 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		}		
+		}
 
 	#contact {
 		margin-top: 6px;
@@ -49,7 +49,7 @@
 
 	#header,
 	#header dd a,
-	#footer,	
+	#footer,
 	#nav,
 	#navScreenshot,
 	#skipNav {
@@ -61,16 +61,16 @@
 		#header dd {
 			letter-spacing: 1px;
 			margin: 0;
-			}			
+			}
 		#header dt {
 			font-size: 16pt;
 			letter-spacing: 1px;
 			}
-			
+
 	#polaroids a {
 		color: #000;
 		text-decoration: none;
-		}	
+		}
 	#polaroids dd {
 		margin: 0 0 20px;
 		}
@@ -78,19 +78,19 @@
 		font-size: 11pt;
 		letter-spacing: 1px;
 		margin: 0 0 3px;
-		}		
+		}
 	#polaroids img {
 		border: 0;
 		}
-		
+
 	.portfolio dd ul {
 		margin: 0;
 		padding: 0;
 		}
-		
+
 	.resume #c1 h1 {
 		font-size: 16pt;
-		letter-spacing: 1px;		
+		letter-spacing: 1px;
 		margin: 0;
 		text-align: center;
 		}
@@ -101,24 +101,23 @@
 		}
 	.resume #c1 p.education {
 		margin: 0;
-		}		
+		}
 	.resume #c1 ul {
 		list-style-type: square;
-		}			
+		}
 		.resume #c1 ul.skills {
 			float: left;
 			list-style: none;
 			margin: 0 0 14px;
 			padding: 0;
-			position: relative;			
+			position: relative;
 			width: 50%;
 			}
-			
+
 	#screenshot dd {
 		margin: 0;
 		}
-		
+
 	#statement {
 		margin-bottom: 15px;
-		}			
-	
+		}

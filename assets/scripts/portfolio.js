@@ -8,7 +8,7 @@ function display() {
 // swap the screenshot and style the correct nav item
 function swap(i, alt) {
 	document.getElementById("label").innerHTML = alt;
-	document.getElementById("window").innerHTML = '<img src="/assets/images/portfolio/' + pagenumber + '/' + i + '.jpg" alt="' + alt + '" id="display" />';	
+	document.getElementById("window").innerHTML = '<img src="/assets/images/portfolio/' + pagenumber + '/' + i + '.jpg" alt="' + alt + '" id="display" />';
 	var navs = document.getElementById("navScreenshot");
 	var selectedNav = "image" + i;
 	for(n = 0; n < navs.childNodes.length; n++) {
@@ -17,7 +17,7 @@ function swap(i, alt) {
 			if (currentNav.id == selectedNav) {
 				currentNav.childNodes[0].className = "selected";
 			} else {
-				currentNav.childNodes[0].className = "";				
+				currentNav.childNodes[0].className = "";
 			}
 		}
 	}

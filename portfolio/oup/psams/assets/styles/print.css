@@ -4,11 +4,11 @@
 		height: auto !important;
 		width: 650px !important;
 		}
-		
+
 	#description {
 		border: none;
 		}
-	
+
 	#header {
 		/* padding-bottom: 10px; */
 		}
@@ -23,19 +23,19 @@
 		display: block;
 		visibility: visible;
 		}
-		
+
 	#isbnDetails {
 		margin: 0;
-		}	
-		
+		}
+
 	#tocTab {
 		display: block;
 		visibility: visible;
 		page-break-before: always;
 		}
-	
+
 	/* Hidden items */
-	#c2, 
+	#c2,
 	#c3,
 	#footer .navUtility,
 	.navAction,
@@ -47,4 +47,3 @@
 	 {
 		display: none;
 		}
-

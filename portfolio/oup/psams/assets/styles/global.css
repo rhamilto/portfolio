@@ -2,9 +2,9 @@
 
 	#aboutAuthor, #productDetails {
 		margin: 0 15px 15px 0;
-		padding: 0;		
+		padding: 0;
 		}
-		
+
 	#browse {
 		}
 		#browse a {
@@ -40,16 +40,16 @@
 		.layout312 #c1 .content {
 			padding-left: 0;
 			}
-		
+
 	#description {
 		border-top: 1px dotted #CECEA7;
 		clear: both;
 		margin: 5px 15px 15px 0;
 		padding: 15px 0 0;
-		}		
-		
+		}
+
 	#detailedInfo {
-		clear: both;	
+		clear: both;
 		position: relative;
 			top: 5px;
 		}
@@ -84,7 +84,7 @@
 			border: 0;
 			display: none;
 			}
-				
+
 	#isbnDetails {
 			margin: 0 180px 0 0;
 			padding: 0;
@@ -103,9 +103,9 @@
 			#isbnDetails ul {
 				margin: 0 0 0 10px;
 				padding: 0;
-				list-style: none;					
-				}				
-				
+				list-style: none;
+				}
+
 		.isbnProperties{}
 			.isbnProperties h1 {
 				font-size: 110%;
@@ -124,12 +124,12 @@
 				.isbn .isbnProperties h2 {
 					font-size: 105%;
 					}
-			.isbnProperties h3, 
+			.isbnProperties h3,
 			.isbn .isbnProperties h2 {
 				display: inline;
 				font-size: 100%;
 				font-style: normal;
-				font-weight: bold;	
+				font-weight: bold;
 				}
 			.isbnProperties .author {
 				font-style: normal;
@@ -137,7 +137,7 @@
 				white-space: nowrap;
 				}
 			.isbnProperties .availability {
-				display: block;	 
+				display: block;
 				float: left;
 				}
 			.isbnProperties .byline {
@@ -145,7 +145,7 @@
 				}
 			.searchResults .isbnProperties .isbnList .clear {
 				display: none;
-				}				
+				}
 			.isbnSummary .cover {
 				margin: 0 0 0 0;
 				text-align: center;
@@ -215,7 +215,7 @@
 				.isbn .isbnProperties .price {
 					display: inline;
 					color: #9C0000;
-					font-weight: bold;				
+					font-weight: bold;
 					}
 			.isbnProperties .publicationDate {}
 				.isbn .isbnProperties .publicationDate {
@@ -228,14 +228,14 @@
 				padding: 0;
 				margin: 0;
 				}
-			.isbnProperties .subTitle {	
-				display: block;		
+			.isbnProperties .subTitle {
+				display: block;
 				}
 				.isbn .isbnProperties .subTitle {
 					font-size: 105%;
 					font-weight: bold;
-					}					
-				
+					}
+
 		.isbnSummaryDetails {}
 			.isbnSummary .isbnSummaryDetails { }
 				.isbn .isbnSummaryDetails {
@@ -244,7 +244,7 @@
 				.isbnList .isbnSummaryDetails {
 					float: right;
 					width: 85%;
-					}	
+					}
 					.searchResults .isbnList .isbnSummaryDetails {
 						float: none;
 						margin: 0 0 0 100px;
@@ -255,17 +255,17 @@
 					padding-bottom: 15px;
 					padding: 0;
 					}
-					.searchResults .isbnList .isbnSummary {	
+					.searchResults .isbnList .isbnSummary {
 						margin: 0 15px 15px 0;
-						padding: 0 0 15px 0;				
+						padding: 0 0 15px 0;
 						}
 
 		.isbnSummaryWrap {
 			}
 			.searchResults .isbnSummaryWrap {
-				position: relative;			
+				position: relative;
 				}
-				
+
 	.navAction {
 		float: right;
 		width: 179px;
@@ -276,12 +276,12 @@
 			}
 			.navAction li a {
 				display: block;
-				padding: 5px 5px 5px 25px;			
+				padding: 5px 5px 5px 25px;
 				text-decoration: none;
 				}
 				.navAction li.print a {
 					background: transparent url(../images/ui/icon_print.gif) no-repeat 7px 6px;
-					}				
+					}
 				.navAction li.saveBookmark a {
 					background: transparent url(../images/ui/icon_save.gif) no-repeat 7px 6px;
 					}
@@ -291,7 +291,7 @@
 			margin: 0;
 			padding: 0;
 			}
-											
+
 	#navigation {
 		background: #F9F9F4 url(../images/ui/bg_navigation.jpg) repeat-x;
 		position: relative;
@@ -310,22 +310,22 @@
 				left: 24%;
 				top: 0;
 			width: 70%;
-			}	
+			}
 		#navigation label {
 			color: #0D0A54;
-			display: block;			
+			display: block;
 			font-size: 105%;
 			font-weight: bold;
-			}	
+			}
 			#navigation #search label {
 				margin-bottom: -1px;
 				}
-	
+
 	#navTopics {
 		font-size: 85%;
 		list-style: none;
 		margin: 0;
-		padding: 0;		
+		padding: 0;
 		}
 		#navTopics a {
 			text-decoration: none;
@@ -344,11 +344,11 @@
 			margin: 10px 0 10px 7px;
 			padding: 0;
 			}
-				
+
 	#navUtility {
 		background: #fff;
-		padding: 5px 15px 0;	
-		}					
+		padding: 5px 15px 0;
+		}
 		#navUtility #bookmark {
 			float: right;
 			font-size: 85%;
@@ -359,11 +359,11 @@
 			#navUtility #breadcrumb a {
 				text-decoration: none;
 				}
-	
+
 	.pageNumbers {
 		padding-top: 5px ;
-	}					
-	
+	}
+
 	.pageNumber {
 		border: 1px solid ;
 		font-size: 90%;
@@ -371,11 +371,11 @@
 		margin: 0 0 0 3px;
 		padding: 1px 3px;
 	}
-	
+
 	.queryResults {
 		margin: 0 0 15px;
 		}
-	
+
 	#relatedFiles {
 		background: #fff url(../images/ui/bg_related_files.jpg) no-repeat;
 		padding: 9px 11px 12px;
@@ -413,8 +413,8 @@
 			list-style: none;
 			margin: 0 0 10px 6px;
 			padding: 0;
-			}	
-			
+			}
+
 	#sortSearch {
 		border-bottom: 1px dotted #CECEA7;
 		margin: -13px 0 13px 0;
@@ -427,13 +427,13 @@
 			margin: 0 3px 0 0;
 			position: relative;
 				top: -3px;
-			}		
+			}
 
-						
+
 	span.formattedISBN10, span.formattedISBN13, span.formattedHyphISBN13, span.formattedHyphISBN10 {
 		display: block;
-		}	
-		
+		}
+
 	.star-toc-entry {
 		text-indent: -20px;
 		padding-left: 30px;
@@ -463,17 +463,17 @@
 		}
 	.star-caretcode-linebreak {
 		}
-		
+
 	#tabs {
 		height: 5em;
 		font-size: 89%;
 		line-height: 100%;
-		}		
+		}
 		#tabs li {
 			background: none;
 			float: left;
 			padding: 0;
-			}	
+			}
 			#tabs li a {
 				background: #E5E5D0;
 				border: 1px solid #CDCDA5;
@@ -512,7 +512,7 @@
 				margin: 0;
 				padding: 6px 0 0 15px;
 				position: absolute;
-					left: 0;			
+					left: 0;
 				}
 				#tabs li.selected ul {
 					display: block;
@@ -525,8 +525,8 @@
 			margin: 0;
 			padding: 0;
 			width: 100%;
-			}				
-						
+			}
+
   table.search-docs {
       margin-top: 11px;
       margin-left: 20px;
@@ -556,4 +556,3 @@
     p.example {
       margin-top: 7px;
     }
-				

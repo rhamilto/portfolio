@@ -19,12 +19,12 @@
 				<!-- InstanceBeginEditable name="c1" -->
 				<!-- InstanceEndEditable -->
 			</div><!--/c1-->
-			
+
 		</div>
 		<!--/inner-->
 		<!--#include virtual="/assets/includes/navigation/navPrimary.html" -->
-		<!--#include virtual="/assets/includes/footer.html" -->		
+		<!--#include virtual="/assets/includes/footer.html" -->
 	</div><!--/outer-->
-	<!--#include virtual="/assets/includes/analytics.html" -->	
+	<!--#include virtual="/assets/includes/analytics.html" -->
 </body>
 <!-- InstanceEnd --></html>

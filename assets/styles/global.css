@@ -1,6 +1,6 @@
 /* Global styles for version 3 of robbhamilton.com */
 
-/* HTML Elements */ 
+/* HTML Elements */
 
 	body {
 		background: #e7e7e7 url("/assets/images/ui/bg.jpg") no-repeat 50% 0;
@@ -10,16 +10,16 @@
 		padding: 0;
 		-webkit-text-size-adjust: none;
 		}
-		
+
 	form {
 		margin: 0;
 		padding: 0;
 		}
-	
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		}
-	
+
 	img {
 		border: none;
 		}
@@ -27,17 +27,17 @@
 	p, td {
 		margin-top: 0;
 		}
-	
+
 	strong {
 		font-weight: 600;
 		}
-		
+
 /* Structural Styles */
 
 	.inner {
 		margin: 15px 0 0;
 		position: relative;
-		}	
+		}
 
 	.outer {
 		margin: 0 auto;
@@ -68,7 +68,7 @@
 		.armadillo #c1 .content,
 		.resume #c1 .content {
 			background: url(/assets/images/ui/bg_sheet.png) no-repeat;
-			min-height: 998px;			
+			min-height: 998px;
 			padding: 57px 80px 0;
 			position: relative;
 			}
@@ -80,13 +80,13 @@
 			font-size: 1.4em;
 			}
 		.armadillo #c1 h2,
-		.resume #c1 h2 {	
+		.resume #c1 h2 {
 			font-size: 1.07em;
 			margin-bottom: 20px;
 			}
 			.resume #c1 h2 {
 				margin: 14px 0 11px;
-				}			
+				}
 		.armadillo #c1 li {
 			border-right: 1px dotted #ccc;
 			float: left;
@@ -134,20 +134,20 @@
 			.resume #c1 p.education {
 				margin-bottom: 0;
 				margin-top: 0;
-				}			
+				}
 		.resume #c1 ul {
 			list-style-type: square;
 			margin-bottom: 0;
-			}			
+			}
 			.resume #c1 ul.skills {
 				float: left;
 				list-style: none;
 				margin: 0 0 14px;
 				padding: 0;
-				position: relative;			
+				position: relative;
 				width: 50%;
 				}
-			
+
 	.cover {
 		border: 1px solid #ccc;
 		padding: 3px;
@@ -169,7 +169,7 @@
 				}
 			#footer p#toTop {
 				font-family: 'Gloria Hallelujah', sans-serif;
-				font-size: 1.3em;			 
+				font-size: 1.3em;
 				height: 30px;
 				position: absolute;
 					right: 55px;
@@ -191,8 +191,8 @@
 					#footer p#toTop a:active,
 					#footer p#toTop a:focus {
 						outline: 0;
-						}											
-					
+						}
+
 	#header dl {
 		background: url(/assets/images/ui/bg_business.png) no-repeat;
 		height: 179px;
@@ -215,10 +215,10 @@
 			color: #888;
 			font-size: 1.3em;
 			font-weight: 600;
-			margin: 0;	
+			margin: 0;
 			position: absolute;
 				left: 22px;
-				top: 95px;	
+				top: 95px;
 				}
 			#header dl dd + dd {
 				font-size: 1.2em;
@@ -234,7 +234,7 @@
 				left: 20px;
 				top: 72px;
 			}
-	
+
 	#nav {
 		font-family: 'Gloria Hallelujah', sans-serif;
 		font-size: 1.8em;
@@ -260,26 +260,26 @@
 			position: absolute;
 				left: 0;
 				top: 19px;
-			text-indent: -9999px;	
+			text-indent: -9999px;
 			width: 159px;
 			}
 			#nav #navArmadillo a {
 				background: url(/assets/images/ui/bg_card.png) no-repeat 341px 192px;
 				height: 100%;
 				width: 100%;
-				}			
+				}
 				.armadillo #nav #navArmadillo a,
 				.armadillo #nav #navArmadillo a:hover {
 					background-position: -169px 100%;
 					}
 				#nav #navArmadillo a:hover {
 						background-position: 0 -102px;
-						}						
-		#nav #navHome {			
+						}
+		#nav #navHome {
 			height: 43px;
 			position: absolute;
 				left: -175px;
-				top: 0;	
+				top: 0;
 			width: 101px;
 			}
 			.home #nav #navHome {
@@ -290,10 +290,10 @@
 					display: block;
 					font-size: .9em;
 					padding: 16px 0;
-					}	
-					#nav #navHome a:hover {	
+					}
+					#nav #navHome a:hover {
 						background-position: -101px 0;
-						}			
+						}
 		#nav #navPortfolio {
 			background: url(/assets/images/ui/bg_portfolio.jpg) no-repeat;
 			height: 104px;
@@ -309,10 +309,10 @@
 				.portfolio #nav #navPortfolio > a,
 				.portfolio #nav #navPortfolio > a:hover {
 					background-position: -163px 11px;
-					}				
+					}
 				#nav #navPortfolio > a:hover {
 					background-position: 3px 11px;
-					}	
+					}
 			#nav #navPortfolio ul {
 				display: none;
 				height: 32px;
@@ -362,23 +362,23 @@
 					.page6 #nav #navPortfolio ul li#page2,
 					.page6 #nav #navPortfolio ul li#page3,
 					.page6 #nav #navPortfolio ul li#page4,
-					.page6 #nav #navPortfolio ul li#page6 {	
+					.page6 #nav #navPortfolio ul li#page6 {
 						display: none;
-						} 					
-						.page2 #nav #navPortfolio ul li#page1 a, 
+						}
+						.page2 #nav #navPortfolio ul li#page1 a,
 						.page3 #nav #navPortfolio ul li#page2 a,
 						.page4 #nav #navPortfolio ul li#page3 a,
 						.page5 #nav #navPortfolio ul li#page4 a,
 						.page6 #nav #navPortfolio ul li#page5 a {
 							background: url(/assets/images/ui/bg_postit.png) no-repeat 7px -221px;
 							}
-							.page2 #nav #navPortfolio ul li#page1 a:hover, 
+							.page2 #nav #navPortfolio ul li#page1 a:hover,
 							.page3 #nav #navPortfolio ul li#page2 a:hover,
 							.page4 #nav #navPortfolio ul li#page3 a:hover,
 							.page5 #nav #navPortfolio ul li#page4 a:hover,
 							.page6 #nav #navPortfolio ul li#page5 a:hover {
 								background-position: -159px -221px;
-								}							
+								}
 						.page1 #nav #navPortfolio ul li#page2 a,
 						.page2 #nav #navPortfolio ul li#page3 a,
 						.page3 #nav #navPortfolio ul li#page4 a,
@@ -392,14 +392,14 @@
 							.page4 #nav #navPortfolio ul li#page5 a:hover,
 							.page5 #nav #navPortfolio ul li#page6 a:hover {
 								background-position: -142px -269px;
-								}				
+								}
 					.page1 #nav #navPortfolio ul li#page2 {
 						float: right;
-						}			
+						}
 				.portfolio #nav #navPortfolio ul {
 					display: block;
 					}
-	
+
 		#nav #navResume {
 			background: url(/assets/images/ui/bg_resume.jpg) no-repeat;
 			height: 105px;
@@ -411,7 +411,7 @@
 			#nav #navResume a {
 				background: url(/assets/images/ui/bg_postit.png) no-repeat 321px 321px;
 				padding: 40px 0 44px;
-				}			
+				}
 				.resume #nav #navResume a,
 				.resume #nav #navResume a:hover {
 					background-position: -156px -91px;
@@ -419,7 +419,7 @@
 				#nav #navResume a:hover {
 					background-position: 10px -91px;
 					}
-	
+
 	#navScreenshot {
 		font-family: 'Gloria Hallelujah', sans-serif;
 		font-size: 1.4em;
@@ -432,7 +432,7 @@
 		}
 		#navScreenshot.hidden {
 			display: none;
-			}						
+			}
 		#navScreenshot li {
 			float: left;
 			margin: 0;
@@ -453,7 +453,7 @@
 				}
 			#navScreenshot li#image5 {
 				width: 47px;
-				}																
+				}
 			#navScreenshot li a {
 				background: url(/assets/images/ui/bg_pages.png) no-repeat;
 				color: #000;
@@ -478,7 +478,7 @@
 				#navScreenshot li a:active,
 				#navScreenshot li a:focus {
 					outline: 0;
-					}																			
+					}
 				#navScreenshot li a:hover {
 					background-position: 0 -42px;
 					color: rgba(0,0,0,1);
@@ -494,7 +494,7 @@
 						}
 					#navScreenshot li#image5 a:hover {
 						background-position: -157px -42px;
-						}					
+						}
 				#navScreenshot li a.selected,
 				#navScreenshot li a:hover.selected {
 					background-position: 0 -84px;
@@ -513,17 +513,17 @@
 						}
 					#navScreenshot li#image5 a.selected,
 					#navScreenshot li#image5 a:hover.selected {
-						background-position: -157px -84px;					
-						}	
+						background-position: -157px -84px;
+						}
 		#navScreenshot.visible {
 			display: block;
-			}				
-	
+			}
+
 	#polaroids {
 		float: left;
 		margin: 0 0 10px;
 		position: relative;
-		}				
+		}
 		#polaroids dd {
 			background: url(/assets/images/ui/bg_polaroid.png) no-repeat;
 			float: left;
@@ -561,7 +561,7 @@
 			#polaroids dt.two {
 				background-position: 0 -42px;
 				left: 347px;
-				}	
+				}
 			#polaroids dt.three {
 				background-position: 0 -82px;
 				left: 677px;
@@ -569,7 +569,7 @@
 			#polaroids dt.four {
 				background-position: 0 -141px;
 				top: 588px;
-				}	
+				}
 			#polaroids dt.five {
 				background-position: 0 -199px;
 				left: 347px;
@@ -580,21 +580,21 @@
 				left: 677px;
 				top: 588px;
 				}
-				
+
 	.portfolio #c1 {
 		font-family: "Courier New", Courier, monospace;
-		font-size: 12px; /* px for Safari */		
+		font-size: 12px; /* px for Safari */
 		background: url(/assets/images/ui/bg_notecard_bottom.png) no-repeat 0 100%;
 		padding: 0 0 4px;
 		position: absolute;
 			right: 0;
 			top: 14px;
-		width: 247px;			
-		}	
+		width: 247px;
+		}
 		.portfolio #c1 .content {
 			background: url(/assets/images/ui/bg_notecard.png) no-repeat;
 			min-height: 366px;
-			padding: 18px 20px;		
+			padding: 18px 20px;
 			}
 		.portfolio #c1 a {
 			background: url(/assets/images/ui/bg_underline.png) repeat-x 0 9px;
@@ -607,7 +607,7 @@
 				}
 		.portfolio #c1 dd {
 			margin: 0 0 10px 22px;
-			}		
+			}
 		.portfolio #c1 h1,
 		.portfolio #c1 h2 {
 			font-size: 12px; /* px for Safari */
@@ -623,14 +623,14 @@
 				list-style: none;
 				margin-left: 0;
 				padding-left: 0;
-				}				
+				}
 	.portfolio #c2 {
 		margin: 0 266px 30px 0;
-		position: relative;		
+		position: relative;
 		}
-			
+
 	#screenshot {
-		background: url(/assets/images/ui/bg_screenshot.png) no-repeat;		
+		background: url(/assets/images/ui/bg_screenshot.png) no-repeat;
 		height: 837px;
 		padding: 59px 35px 0;
 		width: 624px;
@@ -644,12 +644,12 @@
 			position: absolute;
 				left: 16px;
 				top: 14px;
-			}						
-				
+			}
+
 	#skipNav {
 		display: none;
 		}
-		
+
 	#statement {
 		background: url(/assets/images/ui/bg_statement.png) no-repeat;
 		color: #000;

@@ -24,7 +24,7 @@
 		background: #fff;
 		position: relative;
 		}
-		
+
 		/* 1 */
 			.layout1 #c1 {
 				margin: 0;
@@ -36,7 +36,7 @@
 
 			.layout1 #c3 {
 				display: none;
-				}		
+				}
 
 		/* 12 */
 			.layout12 #c1 {
@@ -53,7 +53,7 @@
 			.layout12 #c3 {
 				display: none;
 				}
-				
+
 		/* 21 */
 			.layout21 #c1 {
 				margin: 0 0 0 130px;
@@ -68,7 +68,7 @@
 			.layout21 #c3 {
 				display: none;
 				}
-				
+
 		/* 312 */
 			.layout312 #c1 {
 				margin: 0 179px 0 130px;
@@ -85,4 +85,4 @@
 					left: 0;
 					top: 0;
 				width: 130px;
-				}									
+				}

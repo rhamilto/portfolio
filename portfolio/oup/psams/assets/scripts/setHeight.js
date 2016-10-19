@@ -21,10 +21,10 @@ function setHeight() {
 	for(x=0;x<box.length;x++){
 		if( d.getElementById(box[x]) ){
 			div = d.getElementById(box[x]);
-			div.style.height = h +"px"; 
+			div.style.height = h +"px";
 			div.style.scrollHeight = h +"px";
 		}
-	}		
+	}
 	// zero the margins and padding on the footer
 	/* d.getElementById("footer").style.margin = "0";
 	d.getElementById("footer").style.padding = "0"; */
